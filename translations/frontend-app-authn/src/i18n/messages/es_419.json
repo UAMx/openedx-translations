@@ -177,5 +177,10 @@
   "complete.your.profile.2": "tu perfil ",
   "register.page.terms.of.service.and.honor.code": "Al crear una cuenta, acepta {tosAndHonorCode} y reconoce que {platformName} y cada miembro procesan sus datos personales de acuerdo con {privacyPolicy}.",
   "register.page.honor.code": "Acepto las {platformName} {tosAndHonorCode}",
-  "register.page.terms.of.service": "Acepto las {platformName} {termsOfService}"
+  "register.page.terms.of.service": "Acepto las {platformName} {termsOfService}",
+  "rate.limit.error": "Se ha producido un error debido a demasiadas solicitudes. Por favor, inténtalo de nuevo después de algún tiempo.",
+  "uamx.uam.domain.login.forbidden.message": "Lo sentimos, los usuarios con correo UAM deben iniciar sesión a través del botón ID-UAM.",
+  "uamx.uam.domain.register.forbidden.message": "Lo sentimos, los usuarios con correo UAM deben registrarse sesión a través del botón ID-UAM.",
+  "uamx.uam.domain.registration.other.options.heading": "Usuarios con correo UAM:",
+  "uamx.uam.domain.registration.other.users": "Otros usuarios:"
 }
