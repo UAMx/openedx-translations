@@ -11,30 +11,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 # Brian Smith, 2025
-========
-# Omar Al-Ithawi <i@omardo.com>, 2024
-# Eden Huthmacher, 2024
-# Brian Smith, 2024
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "POT-Creation-Date: 2024-10-23 00:32+0000\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
-========
-"POT-Creation-Date: 2024-04-29 00:34+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Brian Smith, 2024\n"
-"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/147691/ar/)\n"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,11 +118,7 @@ msgstr "Bạn chưa tạo bất kỳ chứng chỉ nào."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Xóa \"<%- signatoryName %>\" khỏi danh sách người ký?"
-========
-msgstr "هل تريد حذف \"<%- signatoryName %>\" من لائحة الموقعين؟"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/certificates/views/signatory_editor.js:137
 #: cms/static/js/views/course_info_update.js:238
@@ -299,7 +282,6 @@ msgstr "Hiển thị cài đặt không được dùng nữa"
 #: cms/static/js/factories/textbooks.js:20
 #: cms/static/js/views/pages/group_configurations.js:84
 msgid "You have unsaved changes. Do you really want to leave this page?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Bạn có các thay đổi chưa lưu. Bạn có thực sự muốn rời khỏi trang này?"
 
 #: cms/static/js/features/import/factories/import.js:22
@@ -310,18 +292,6 @@ msgstr "Đã xảy ra lỗi trong quá trình tải lên."
 msgid "There was an error while unpacking the file."
 msgstr "Đã xảy ra lỗi khi giải nén tệp."
 
-========
-msgstr "لديك تغييرات غير محفّظة. هل تريد حقًّا أن تغادر الصفحة؟"
-
-#: cms/static/js/features/import/factories/import.js:22
-msgid "There was an error during the upload process."
-msgstr "نأسف لحدوث خطأ خلال عملية التحميل."
-
-#: cms/static/js/features/import/factories/import.js:23
-msgid "There was an error while unpacking the file."
-msgstr "نأسف لحدوث خطأ خلال عملية تفريغ الملف."
-
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 #: cms/static/js/features/import/factories/import.js:24
 msgid "There was an error while verifying the file you submitted."
 msgstr "Đã xảy ra lỗi khi xác minh tệp bạn đã gửi."
@@ -333,7 +303,6 @@ msgstr "Chọn tập tin mới"
 #: cms/static/js/features/import/factories/import.js:48
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr ""
 "Định dạng tập tin không được hỗ trợ. Vui lòng tải lên tệp có phần mở rộng "
 "{ext} ."
@@ -346,18 +315,6 @@ msgstr "Đã xảy ra lỗi khi nhập thư viện mới vào cơ sở dữ li�
 msgid "There was an error while importing the new course to our database."
 msgstr "Đã xảy ra lỗi khi nhập khóa học mới vào cơ sở dữ liệu của chúng tôi."
 
-========
-msgstr "صيغة الملف غير مدعومة رجاءً قم يتحميل ملف بامتداد {ext}."
-
-#: cms/static/js/features/import/factories/import.js:56
-msgid "There was an error while importing the new library to our database."
-msgstr "نأسف لحدوث خطأ أثناء استيراد المكتبة الجديدة إلى قاعدة بياناتنا."
-
-#: cms/static/js/features/import/factories/import.js:58
-msgid "There was an error while importing the new course to our database."
-msgstr "نأسف لحدوث خطأ أثناء استيراد المساق الجديد إلى قاعدة بياناتنا."
-
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 #: cms/static/js/features/import/factories/import.js:121
 msgid "Your import has failed."
 msgstr "Quá trình nhập của bạn không thành công."
@@ -473,11 +430,7 @@ msgstr "Ngày cấp chứng chỉ phải muộn hơn ngày kết thúc khóa h�
 
 #: cms/static/js/models/settings/course_details.js:94
 msgid "The certificate display behavior must be one of: {behavior_options}"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Hành vi hiển thị chứng chỉ phải là một trong: {behavior_options}"
-========
-msgstr "يجب أن يكون سلوك عرض الشهادة واحدًا مما يلي: {behavior_options}"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/models/settings/course_details.js:109
 msgid ""
@@ -517,11 +470,7 @@ msgstr "Vui lòng nhập số nguyên không âm."
 
 #: cms/static/js/models/settings/course_grader.js:66
 msgid "You must have at least one undroppable <%- types %> assignment."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Bạn phải có ít nhất một bài tập <%- types %> không thể bỏ được."
-========
-msgstr "يجب أن يكون لديك واجب واحد على الأقل غير قابل للإسقاط <%- types %>."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/models/settings/course_grading_policy.js:79
 msgid "Grace period must be specified in HH:MM format."
@@ -548,13 +497,8 @@ msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "Chỉ có thể tải lên các tệp <%- fileTypes %>. Vui lòng chọn tệp có đuôi <%- "
 "(fileExtensions) %> để tải lên."
-========
-"يمكن تحميل ملفات <%- fileTypes %> فقط. الرجاء تحديد ملف ينتهي بـ <%- "
-"(fileExtensions) %> للتحميل."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/models/uploads.js:63
 #: lms/templates/student_account/hinted_login.underscore:21
@@ -894,11 +838,7 @@ msgstr "Đã lưu thông tin xác thực {selectedProvider}"
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%- name %>”"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Tải bản PDF mới lên “<%- name %>”"
-========
-msgstr "تحميل ملف PDF جديد إلى “<%- name %>”"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -1591,11 +1531,7 @@ msgstr "Tải lên hình ảnh thu nhỏ video của bạn."
 
 #: cms/static/js/views/show_textbook.js:33
 msgid "Delete “<%- name %>”?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Xóa “<%- name %>”?"
-========
-msgstr "هل تريد حذف “<%- name %>”؟"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/show_textbook.js:36
 msgid ""
@@ -1630,26 +1566,16 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "Độ dài kết hợp của tổ chức, mã số khóa học và các trường chạy khóa học không"
 " thể nhiều hơn <%- limit %> ký tự."
-========
-"لا يمكن أن يزيد مجموع الأحرف في حقول المؤسسة ورقم الدورة وفترة طرح الدورة "
-"أكثر من <%- limit %> من الأحرف."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "Độ dài kết hợp của các trường mã tổ chức và thư viện không được nhiều hơn "
 "<%- limit %> ký tự."
-========
-"لا يمكن أن يزيد مجموع الأحرف في حقلي المؤسسة ورمز المكتبة عن <%- limit %> "
-"حرفًا."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -4044,11 +3970,7 @@ msgstr "Những người dùng này không bị xóa khỏi vai trò người th
 
 #: lms/static/js/instructor_dashboard/membership.js:583
 msgid "Could not find users associated with the following identifiers:"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr "Không thể tìm thấy người dùng được liên kết với các số nhận dạng sau:"
-========
-msgstr "نأسف لتعذّر إيجاد مستخدمين يحملون الأرقام التالية:"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/membership.js:592
 msgid ""
@@ -5799,13 +5721,8 @@ msgstr "chưa được nộp"
 msgid ""
 "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "{paragraph} =p; {preformatted} =pre; {heading3} =h3; {heading4} =h4; "
 "{heading5} =h5; {heading6} =h6"
-========
-"{paragraph} = p ؛ {preformatted} = pre ؛ {heading3} = h3 ؛ {heading4} = h4 ؛"
-" {heading5} = h5 ؛ {heading6} = h6"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -7970,13 +7887,8 @@ msgid ""
 "This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
 "exist in the current grading policy."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "Tiểu mục này được định cấu hình là \\&quot; %(gradingType)s \\&quot;, không "
 "tồn tại trong chính sách chấm điểm hiện tại."
-========
-"تم تكوين هذا القسم الفرعي كـ \\\"%(gradingType)s\\\" ، وهو غير موجود في "
-"سياسة التقدير الحالية."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
@@ -8303,13 +8215,8 @@ msgid ""
 "Embed your subsection content directly on a page using an iframe, and view "
 "it without the LMS header and footer."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 "Nhúng nội dung tiểu mục của bạn trực tiếp trên một trang bằng iframe và xem "
 "nội dung đó mà không cần đầu trang và chân trang LMS."
-========
-"قم بتضمين محتوى القسم الفرعي الخاص بك مباشرةً على الصفحة باستخدام iframe، "
-"واعرضه بدون رأس وتذييل LMS."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
@@ -9102,12 +9009,8 @@ msgstr "Tài khoản"
 #: cms/templates/js/transcript-organization-credentials.underscore:5
 msgid ""
 "This action updates the {provider} information for your entire organization."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/vi/LC_MESSAGES/djangojs.po
 msgstr ""
 "Hành động này cập nhật thông tin {provider} cho toàn bộ tổ chức của bạn."
-========
-msgstr "يقوم هذا الإجراء بتحديث معلومات {provider} مؤسستك بأكملها."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/ar/LC_MESSAGES/djangojs.po
 
 #: cms/templates/js/transcript-organization-credentials.underscore:7
 msgid "Enter the account information for your organization."

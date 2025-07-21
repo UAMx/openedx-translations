@@ -11,30 +11,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 # Brian Smith, 2025
-========
-# Omar Al-Ithawi <i@omardo.com>, 2024
-# Eden Huthmacher, 2024
-# Brian Smith, 2024
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "POT-Creation-Date: 2024-10-23 00:32+0000\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Latvian (https://app.transifex.com/open-edx/teams/6205/lv/)\n"
-========
-"POT-Creation-Date: 2024-04-29 00:34+0000\n"
-"PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: Brian Smith, 2024\n"
-"Language-Team: Swahili (https://app.transifex.com/open-edx/teams/147691/sw/)\n"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,13 +118,7 @@ msgstr "Jūs vēl neizveidojāt nevienu sertifikātu."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Vai dzēst \"<%- signatoryName %>\" no parakstītāju saraksta?"
-========
-msgstr ""
-"Je, ungependa kufuta \"<%- signatoryName %>\" kutoka kwa orodha ya waliotia "
-"saini?"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/certificates/views/signatory_editor.js:137
 #: cms/static/js/views/course_info_update.js:238
@@ -298,7 +279,6 @@ msgstr "Rādīt novecojušos iestatījumus"
 #: cms/static/js/factories/textbooks.js:20
 #: cms/static/js/views/pages/group_configurations.js:84
 msgid "You have unsaved changes. Do you really want to leave this page?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Jums ir nesaglabātas izmaiņas. Vai tiešām vēlaties pamest šo lapu?"
 
 #: cms/static/js/features/import/factories/import.js:22
@@ -309,20 +289,6 @@ msgstr "Augšupielādes procesa laikā radās kļūda."
 msgid "There was an error while unpacking the file."
 msgstr "Izpakojot failu, radās kļūda."
 
-========
-msgstr ""
-"Una mabadiliko ambayo hayajahifadhiwa. Je, kweli unataka kuondoka kwenye "
-"ukurasa huu?"
-
-#: cms/static/js/features/import/factories/import.js:22
-msgid "There was an error during the upload process."
-msgstr "Kulikuwa na hitilafu wakati wa upakiaji."
-
-#: cms/static/js/features/import/factories/import.js:23
-msgid "There was an error while unpacking the file."
-msgstr "Kulikuwa na hitilafu wakati wa kufungua faili."
-
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 #: cms/static/js/features/import/factories/import.js:24
 msgid "There was an error while verifying the file you submitted."
 msgstr "Pārbaudot jūsu iesniegto failu, radās kļūda."
@@ -335,7 +301,6 @@ msgstr "Izvēlieties jaunu failu"
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Faila formāts netiek atbalstīts. Lūdzu, augšupielādējiet failu ar "
 "paplašinājumu {ext} ."
 
@@ -347,21 +312,6 @@ msgstr "Importējot jauno bibliotēku mūsu datu bāzē, radās kļūda."
 msgid "There was an error while importing the new course to our database."
 msgstr "Importējot jauno kursu mūsu datu bāzē, radās kļūda."
 
-========
-"Umbizo la faili halitumiki. Tafadhali pakia faili iliyo na kiendelezi cha "
-"{ext} ."
-
-#: cms/static/js/features/import/factories/import.js:56
-msgid "There was an error while importing the new library to our database."
-msgstr ""
-"Kulikuwa na hitilafu wakati wa kuleta maktaba mpya kwenye hifadhidata yetu."
-
-#: cms/static/js/features/import/factories/import.js:58
-msgid "There was an error while importing the new course to our database."
-msgstr ""
-"Kulikuwa na hitilafu wakati wa kuleta kozi mpya kwenye hifadhidata yetu."
-
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 #: cms/static/js/features/import/factories/import.js:121
 msgid "Your import has failed."
 msgstr "Jūsu importēšana neizdevās."
@@ -518,11 +468,7 @@ msgstr "Lūdzu, ievadiet nenegatīvu veselu skaitli."
 
 #: cms/static/js/models/settings/course_grader.js:66
 msgid "You must have at least one undroppable <%- types %> assignment."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Jums ir jābūt vismaz vienam nenolaižamam <%- types %> uzdevumam."
-========
-msgstr "Lazima uwe na angalau mgawo mmoja <%- types %> usioweza kutenduliwa."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/models/settings/course_grading_policy.js:79
 msgid "Grace period must be specified in HH:MM format."
@@ -551,13 +497,8 @@ msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Var augšupielādēt tikai <%- fileTypes %> failus. Lai augšupielādētu failu, "
 "lūdzu, izvēlieties failu, kas beidzas ar <%- (fileExtensions) %>."
-========
-"Ni faili za <%- fileTypes %> pekee ndizo zinazoweza kupakiwa. Tafadhali "
-"chagua faili inayoisha kwa <%- (fileExtensions) %> ili kupakia."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/models/uploads.js:63
 #: lms/templates/student_account/hinted_login.underscore:21
@@ -892,11 +833,7 @@ msgstr "{selectedProvider} akreditācijas dati ir saglabāti"
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%- name %>”"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Augšupielādējiet jaunu PDF failu uz “<%- name %>”"
-========
-msgstr "Pakia PDF mpya kwenye “<%- name %>”"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -1564,11 +1501,7 @@ msgstr "Augšupielādējiet sava video sīktēla attēlu."
 
 #: cms/static/js/views/show_textbook.js:33
 msgid "Delete “<%- name %>”?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Vai dzēst “<%- name %>”?"
-========
-msgstr "Ungependa kufuta “<%- name %>”?"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/show_textbook.js:36
 msgid ""
@@ -1602,26 +1535,16 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Organizācijas, kursa numura un kursa norises lauka kopējais garums nedrīkst "
 "pārsniegt <%- limit %> rakstzīmes."
-========
-"Urefu uliounganishwa wa shirika, nambari ya kozi, na sehemu zinazoendeshwa "
-"haziwezi kuwa zaidi ya vibambo <%- limit %>."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Organizācijas un bibliotēkas koda lauku kopējais garums nedrīkst pārsniegt "
 "<%- limit %> zīmes."
-========
-"Urefu uliounganishwa wa sehemu za shirika na msimbo wa maktaba hauwezi kuwa "
-"zaidi ya vibambo <%- limit %>."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -3265,24 +3188,15 @@ msgstr "Servera kļūda. Lūdzu, atsvaidziniet lapu un mēģiniet vēlreiz."
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:64
 msgid "<%- user %> already in exception list."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "<%- user %> jau ir izņēmumu sarakstā."
-========
-msgstr "<%- user %> tayari katika orodha ya kipekee."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:69
 msgid ""
 "<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "<%- user %> ir veiksmīgi pievienots izņēmumu sarakstam. Lai nosūtītu "
 "sertifikātu, noklikšķiniet uz Izņēmuma sertifikāta ģenerēšana zemāk."
-========
-"<%- user %> amefanikiwa kuongezwa kwenye orodha ya vighairi. Bofya Tengeneza"
-" Cheti cha Isipokuwa hapo chini ili kutuma cheti."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
@@ -3378,21 +3292,12 @@ msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "<%= user %> sertifikāts jau ir anulēts. Lūdzu, pārbaudiet pareizrakstību un "
 "mēģiniet vēlreiz."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
 msgstr "Sertifikāts ir veiksmīgi anulēts <%= user %>."
-========
-"Cheti cha <%= user %> tayari kimebatilishwa. Tafadhali angalia tahajia yako "
-"na ujaribu tena."
-
-#: lms/static/js/certificates/views/certificate_invalidation_view.js:59
-msgid "Certificate has been successfully invalidated for <%= user %>."
-msgstr "Cheti kimebatilishwa kwa <%= user %>."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:88
 msgid ""
@@ -3828,12 +3733,8 @@ msgstr "Augšupielādējiet failu un piešķiriet dalībniekus"
 #: lms/static/js/groups/views/cohorts.js:278
 msgid ""
 "Your file '{file}' has been uploaded. Allow a few minutes for processing."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr ""
 "Jūsu fails '{file}' ir augšupielādēts. Atvēliet apstrādei dažas minūtes."
-========
-msgstr "Faili yako '{file}' imepakiwa. Ruhusu dakika chache kwa usindikaji."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/groups/views/course_cohort_settings_notification.js:31
 msgid "Cohorts Enabled"
@@ -4012,28 +3913,17 @@ msgstr "Mainot lietotāja atļaujas, radās kļūda."
 msgid ""
 "Could not find a user with username or email address '<%- identifier %>'."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Nevarēja atrast lietotāju ar lietotājvārdu vai e-pasta adresi '<%- "
 "identifier %>'."
-========
-"Haikuweza kupata mtumiaji aliye na jina la mtumiaji au anwani ya barua pepe "
-"'<%- identifier %>'."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/membership.js:277
 msgid ""
 "Error: User '<%- username %>' has not yet activated their account. Users "
 "must create and activate their accounts before they can be assigned a role."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda: Lietotājs '<%- username %>' vēl nav aktivizējis savu kontu. "
 "Lietotājiem ir jāizveido un jāaktivizē konts, pirms viņiem var piešķirt "
 "lomu."
-========
-"Hitilafu: Mtumiaji '<%- username %>' bado hajawezesha akaunti yake. "
-"Watumiaji lazima waunde na kuwezesha akaunti zao kabla ya kukabidhiwa "
-"jukumu."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/membership.js:283
 msgid "Error: You cannot remove yourself from the Instructor group!"
@@ -4110,11 +4000,7 @@ msgstr "Šie lietotāji netika noņemti kā beta testētāji:"
 
 #: lms/static/js/instructor_dashboard/membership.js:583
 msgid "Could not find users associated with the following identifiers:"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Nevarēja atrast lietotājus, kas saistīti ar šādiem identifikatoriem:"
-========
-msgstr "Haikuweza kupata watumiaji wanaohusishwa na vitambulishi vifuatavyo:"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/membership.js:592
 msgid ""
@@ -4291,13 +4177,8 @@ msgid ""
 "Error getting enrollment status for '<%- student_id %>'. Make sure that the "
 "student identifier is spelled correctly."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Iegūstot '<%- student_id %>' reģistrācijas statusu, radās kļūda. "
 "Pārliecinieties, vai dalībnieka identifikators ir uzrakstīts pareizi."
-========
-"Hitilafu katika kupata hali ya uandikishaji ya '<%- student_id %>'. "
-"Hakikisha kuwa kitambulisho cha mwanafunzi kimeandikwa ipasavyo."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:91
 msgid "Retrieving enrollment status..."
@@ -4308,13 +4189,8 @@ msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, iegūstot dalībnieka progresa URL '<%- student_id %>'. "
 "Pārliecinieties, vai dalībnieka identifikators ir uzrakstīts pareizi."
-========
-"Hitilafu katika kupata url ya maendeleo ya mwanafunzi ya '<%- student_id "
-"%>'. Hakikisha kuwa kitambulisho cha mwanafunzi kimeandikwa ipasavyo."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:149
 #: lms/static/js/instructor_dashboard/student_admin.js:191
@@ -4332,13 +4208,8 @@ msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Veiksmi! Uzdevumi mēģinājumi atiestatīti problēmai '<%- problem_id %>' un "
 "dalībniekam '<%- student_id %>'."
-========
-"Mafanikio! Majaribio ya tatizo kuweka upya kwa tatizo '<%- problem_id %>' na"
-" mwanafunzi '<%- student_id %>'."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:157
 msgid ""
@@ -4346,27 +4217,16 @@ msgid ""
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, atiestatot uzdevumi '<%- problem_id %>' un dalībnieka '<%- student_id"
 " %>' uzdevumi mēģinājumus. Pārliecinieties, vai uzdevums un dalībnieka "
 "identifikatori ir pilnīgi un pareizi."
-========
-"Hitilafu ya kuweka upya majaribio ya tatizo kwa tatizo '<%- problem_id %>' "
-"na mwanafunzi  '<%- student_id %>'. Hakikisha kuwa tatizo na vitambulisho "
-"vya wanafunzi ni kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:194
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Vai dzēst dalībnieka '<%- student_id %>' stāvokli saistībā ar uzdevumu '<%- "
 "problem_id %>'?"
-========
-"Je, ungependa kufuta hali ya '<%- student_id %>' ya mwanafunzi kuhusu tatizo"
-" '<%- problem_id %>'?"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:205
 msgid ""
@@ -4374,15 +4234,9 @@ msgid ""
 " %>'. Make sure that the problem and student identifiers are complete and "
 "correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, dzēšot dalībnieka '<%- student_id %>' stāvokli saistībā ar uzdevumu "
 "'<%- problem_id %>'. Pārliecinieties, vai uzdevums un dalībnieka "
 "identifikatori ir pilnīgi un pareizi."
-========
-"Hitilafu katika kufuta hali ya mwanafunzi '<%- student_id %>' kwenye tatizo "
-"'<%- problem_id %>'. Hakikisha kuwa tatizo na vitambulisho vya wanafunzi ni "
-"kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:216
 msgid "Module state successfully deleted."
@@ -4394,15 +4248,9 @@ msgid ""
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, iegūstot uzdevumu vēsturi problēmai '<%- problem_id %>' un "
 "dalībniekam '<%- student_id %>'. Pārliecinieties, vai uzdevums un dalībnieka"
 " identifikatori ir pilnīgi un pareizi."
-========
-"Hitilafu katika kupata historia ya kazi ya tatizo '<%- problem_id %>' na "
-"mwanafunzi '<%- student_id %>'. Hakikisha kuwa tatizo na vitambulisho vya "
-"wanafunzi ni kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:287
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
@@ -4460,11 +4308,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/student_admin.js:413
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Vai atiestatīt mēģinājumus visiem dalībniekiem saistībā ar uzdevumu '<%- "
-========
-"Ungependa kuweka upya majaribio ya wanafunzi wote kwenye tatizo '<%- "
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 "problem_id %>'?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:422
@@ -4472,14 +4316,9 @@ msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Veiksmīgi sākts uzdevums, lai atjaunotu problēmas mēģinājumus '<%- "
 "problem_id %>'. Noklikšķiniet uz pogas \"Rādīt uzdevuma statusu\", lai "
 "redzētu uzdevuma statusu."
-========
-"Imefaulu kuanza kazi ya kuweka upya majaribio ya tatizo '<%- problem_id %>'."
-" Bofya kitufe cha &#39;Onyesha Hali ya Kazi&#39; ili kuona hali ya kazi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:426
 msgid ""
@@ -4487,15 +4326,9 @@ msgid ""
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, uzsākot uzdevumu, lai atiestatītu mēģinājumus visiem dalībniekiem "
 "uzdevumā '<%- problem_id %>'. Pārliecinieties, ka problēmas identifikators "
 "ir pilnīgs un pareizs."
-========
-"Hitilafu katika kuanzisha kazi ya kuweka upya majaribio kwa wanafunzi wote "
-"kwenye tatizo '<%- problem_id %>'. Hakikisha kuwa kitambulisho cha tatizo ni"
-" kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:475
 msgid "Error listing task history for this student and problem."
@@ -4507,15 +4340,9 @@ msgid ""
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Sākts atkārtotas pārbaudes uzdevumi uzdevums problēmai '<%- problem_id %>' "
 "un dalībniekam '<%- student_id %>'. Noklikšķiniet uz pogas Rādīt uzdevuma "
 "statusu, lai redzētu uzdevuma statusu."
-========
-"Alianza kazi ya tatizo la matokeo kwa tatizo '<%- problem_id %>' na "
-"mwanafunzi '<%- student_id %>'. Bofya kitufe cha &#39;Onyesha Hali ya "
-"Kazi&#39; ili kuona hali ya kazi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:508
 msgid ""
@@ -4523,15 +4350,9 @@ msgid ""
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, uzsākot uzdevumu, lai atkārtoti noteiktu uzdevumu '<%- problem_id %>'"
 " dalībniekam '<%- student_id %>'. Pārliecinieties, vai uzdevumi un "
 "dalībnieka identifikatori ir pilnīgi un pareizi."
-========
-"Hitilafu ya kuanzisha kazi ya kurejesha tatizo '<%- problem_id %>' kwa "
-"mwanafunzi '<%- student_id %>'. Hakikisha kuwa tatizo na vitambulisho vya "
-"wanafunzi ni kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:549
 msgid "Please enter a score."
@@ -4543,15 +4364,9 @@ msgid ""
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
 "status of the task."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Sākts uzdevums, lai ignorētu uzdevumi “<%- problem_id %>” un dalībnieka “<%-"
 " student_id %>” rezultātu. Noklikšķiniet uz pogas Rādīt uzdevuma statusu, "
 "lai redzētu uzdevuma statusu."
-========
-"Ilianza kazi ya kubatilisha alama za tatizo '<%- problem_id %>' na "
-"mwanafunzi '<%- student_id %>'. Bofya kitufe cha &#39;Onyesha Hali ya "
-"Kazi&#39; ili kuona hali ya kazi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:562
 msgid ""
@@ -4559,15 +4374,9 @@ msgid ""
 "student '<%- student_id %>'. Make sure that the the score and the problem "
 "and student identifiers are complete and correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, uzsākot uzdevumu, lai ignorētu rezultātu '<%- problem_id %>' "
 "dalībniekam '<%- student_id %>'. Pārliecinieties, vai rezultāts, uzdevumi un"
 " dalībnieku identifikatori ir pilnīgi un pareizi."
-========
-"Hitilafu ya kuanzisha kazi ya kubatilisha alama ya tatizo  '<%- problem_id "
-"%>' kwa mwanafunzi '<%- student_id %>'. Hakikisha kwamba alama na tatizo na "
-"vitambulisho vya wanafunzi ni kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:604
 msgid ""
@@ -4590,40 +4399,25 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js:632
 msgid "Rescore problem '<%- problem_id %>' for all students?"
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr ""
 "Vai atkārtoti novērtēt uzdevumu “<%- problem_id %>” visiem dalībniekiem?"
-========
-msgstr "Tatizo la matokeo tena '<%- problem_id %>' kwa wanafunzi wote?"
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:642
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Veiksmīgi sākts uzdevums, lai atkārtoti novērtētu uzdevumu '<%- problem_id "
 "%>' visiem dalībniekiem. Noklikšķiniet uz pogas \"Rādīt uzdevuma statusu\", "
 "lai redzētu uzdevuma statusu."
-========
-"Imefaulu kuanza kazi ya kupata tena tatizo la '<%- problem_id %>' kwa "
-"wanafunzi wote. Bofya kitufe cha &#39;Onyesha Hali ya Kazi&#39; ili kuona "
-"hali ya kazi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/instructor_dashboard/student_admin.js:646
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Kļūda, uzsākot uzdevuma atkārtotu novērtēšanu '<%- problem_id %>'. "
 "Pārliecinieties, ka problēmas identifikators ir pilnīgs un pareizs."
-========
-"Hitilafu katika kuanzisha kazi kurejesha tatizo '<%- problem_id %>'. "
-"Hakikisha kuwa kitambulisho cha tatizo ni kamili na sahihi."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
@@ -5635,19 +5429,11 @@ msgstr "Vietturis"
 
 #: lms/static/js/views/file_uploader.js:85
 msgid "Your upload of '{file}' succeeded."
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 msgstr "Faila “{file}” augšupielāde bija veiksmīga."
 
 #: lms/static/js/views/file_uploader.js:111
 msgid "Your upload of '{file}' failed."
 msgstr "Faila “{file}” augšupielāde neizdevās."
-========
-msgstr "Upakiaji wako wa '{file}' umefaulu."
-
-#: lms/static/js/views/file_uploader.js:111
-msgid "Your upload of '{file}' failed."
-msgstr "Upakiaji wako wa '{file}' umeshindwa."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: lms/static/js/views/image_field.js:17
 msgid "Upload an image"
@@ -8475,13 +8261,8 @@ msgid ""
 "Embed your subsection content directly on a page using an iframe, and view "
 "it without the LMS header and footer."
 msgstr ""
-<<<<<<<< HEAD:translations/edx-platform/conf/locale/lv/LC_MESSAGES/djangojs.po
 "Ievietojiet apakšsadaļas saturu tieši lapā, izmantojot iframe, un skatiet to"
 " bez LMS galvenes un kājenes."
-========
-"Pachika maudhui ya kifungu chako moja kwa moja kwenye ukurasa kwa kutumia "
-"iframe, na uitazame bila kichwa na kijachini cha LMS."
->>>>>>>> uamx/redwood.3:translations/edx-platform/conf/locale/sw/LC_MESSAGES/djangojs.po
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
