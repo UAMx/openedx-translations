@@ -3964,12 +3964,6 @@ msgstr "Pievienojot/noņemot lietotājus kā beta testētājus, radās kļūda."
 msgid "This field must not be blank"
 msgstr "Šis lauks nedrīkst būt tukšs"
 
-#. Translators: For cases when the input field is empty;
-#: lms/static/js/instructor_dashboard/membership.js:518
-#: lms/static/js/instructor_dashboard/membership.js:728
-msgid "This field must not be blank"
-msgstr "Sehemu hii haipaswi kuwa tupu"
-
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
 msgid "These users were successfully added as beta testers:"

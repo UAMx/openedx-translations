@@ -3931,12 +3931,6 @@ msgstr "Lỗi thêm/xóa người dùng làm người thử nghiệm beta."
 msgid "This field must not be blank"
 msgstr "Trường này không được để trống"
 
-#. Translators: For cases when the input field is empty;
-#: lms/static/js/instructor_dashboard/membership.js:518
-#: lms/static/js/instructor_dashboard/membership.js:728
-msgid "This field must not be blank"
-msgstr "يجب ألا يكون هذا الحقل فارغا"
-
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
 msgid "These users were successfully added as beta testers:"
