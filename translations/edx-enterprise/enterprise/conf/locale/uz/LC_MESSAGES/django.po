@@ -1043,17 +1043,6 @@ msgstr ""
 "[Enterprise API] Dastur Katalogda topilmadi. Dastur: {program_uuid} , "
 "Katalog: {catalog_id}"
 
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
-#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
-#: enterprise_learner_portal/api/v1/views.py:69
-#: enterprise_learner_portal/api/v1/views.py:132
-msgid ""
-"To use this endpoint, this package must be installed in an Open edX "
-"environment."
-msgstr ""
-"Ushbu so'nggi nuqtadan foydalanish uchun ushbu paket Open edX muhitida "
-"o'rnatilishi kerak."
-
 #: enterprise/api_client/discovery.py:60
 #: enterprise/api_client/discovery.py:399 enterprise/utils.py:1638
 msgid ""
@@ -1086,33 +1075,6 @@ msgid ""
 msgstr ""
 "Ecommerce_api_clientni olish uchun ushbu paket Open edX muhitida "
 "o'rnatilishi kerak."
-
-#: enterprise/config/models.py:41
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"Qaysi foydalanuvchi roli tayinlarini yangilash kerakligini belgilaydi. Agar "
-"belgilanmagan bo'lsa, barcha rollar uchun yangilanadi."
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"Har bir yangilanishlar to'plamida yangilanadigan foydalanuvchi rollarini "
-"belgilash soni."
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "Korxona mijozi rollarni belgilashni cheklaydi."
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"Agar o'rnatilsa, hech qanday yangilanish yoki yaratilish sodir bo'lmaydi; "
-"Buning o'rniga o'zgartiriladigan yoki yaratiladigan topshiriqlarni "
-"takrorlaydi"
 
 #: enterprise/constants.py:14
 #, python-brace-format
@@ -2964,10 +2926,29 @@ msgstr ""
 msgid "{purchase_action} for"
 msgstr "{purchase_action} uchun"
 
-#: enterprise_learner_portal/api/v1/serializers.py:40
+#: enterprise/config/models.py:41
 msgid ""
-"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
-"installed in an Open edX environment."
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
 msgstr ""
-"Ushbu EnterpriseCourseEnrollmentSerializer dasturidan foydalanish uchun "
-"ushbu paket Open edX muhitida o'rnatilishi kerak."
+"Qaysi foydalanuvchi roli tayinlarini yangilash kerakligini belgilaydi. Agar "
+"belgilanmagan bo'lsa, barcha rollar uchun yangilanadi."
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"Har bir yangilanishlar to'plamida yangilanadigan foydalanuvchi rollarini "
+"belgilash soni."
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "Korxona mijozi rollarni belgilashni cheklaydi."
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"Agar o'rnatilsa, hech qanday yangilanish yoki yaratilish sodir bo'lmaydi; "
+"Buning o'rniga o'zgartiriladigan yoki yaratiladigan topshiriqlarni "
+"takrorlaydi"

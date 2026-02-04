@@ -826,14 +826,6 @@ msgstr ""
 msgid "Actually commit the changes to the database."
 msgstr "Lütfen değişiklikleri veritabanına kaydedin."
 
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:46
-msgid ""
-"Use arguments from the BackpopulateCourseTypeConfig model instead of the "
-"command line."
-msgstr ""
-"Komut satırı yerine BackpopulateCourseTypeConfig modelindeki bağımsız "
-"değişkenleri kullanın."
-
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:64
 msgid "You must specify --partner"
 msgstr "Bir iş ortağı belirtmelisiniz"
@@ -859,10 +851,6 @@ msgstr "course_metadata içindeki mükerrer kişileri sil."
 #: apps/course_metadata/management/commands/delete_person_dups.py:26
 msgid "PERSON"
 msgstr "KİŞİ"
-
-#: apps/course_metadata/management/commands/delete_person_dups.py:28
-msgid "People to delete, in UUID:TARGET_UUID form."
-msgstr "UUID:TARGET_UUID biçiminde silinecek kişiler."
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:32
 msgid "PARTNER"
@@ -1951,15 +1939,6 @@ msgstr "Ders Becerilerini Güncelle"
 msgid "Refresh Program Skills"
 msgstr "Program Becerilerini Güncelle"
 
-#: apps/course_metadata/templates/course_metadata/email/comment.html:7
-#, python-format
-msgid ""
-"%(user_name)s made the following comment on %(course_name)s on %(date)s at "
-"%(time)s"
-msgstr ""
-"%(user_name)s %(time)s adresinde %(course_name)s üzerinde %(date)s hakkında "
-"aşağıdaki yorumu yaptı"
-
 #: apps/course_metadata/templates/course_metadata/email/comment.html:19
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:9
 msgid "View comment in Publisher"
@@ -1969,15 +1948,6 @@ msgstr "Yorumu Publisher içinde göster"
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:11
 msgid "The edX team"
 msgstr "edX ekibi"
-
-#: apps/course_metadata/templates/course_metadata/email/comment.txt:3
-#, python-format
-msgid ""
-"%(user_name)s made the following comment on %(course_name)s %(date)s at "
-"%(time)s"
-msgstr ""
-"%(user_name)s %(time)s adresinde %(course_name)s %(date)s hakkında aşağıdaki"
-" yorumu yaptı"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
@@ -2120,11 +2090,6 @@ msgstr "Geçersiz HTML alındı"
 msgid "{0} tag is not allowed"
 msgstr "{0} etiketine izin verilmiyor"
 
-#: apps/course_metadata/validators.py:42
-#, python-brace-format
-msgid "{0} attribute is not allowed on the {1} tag"
-msgstr "{1} etiketinde {0} özelliğine izin verilmiyor"
-
 #: apps/course_metadata/views.py:38
 msgid "Update excluded course runs"
 msgstr "Hariç tutulan ders yayınlarını güncelle"
@@ -2219,14 +2184,6 @@ msgstr "Kurumdaki Rol"
 #: apps/taxonomy_support/management/commands/update_course_recommendations.py:19
 msgid "Update the course recommendations based on skills."
 msgstr "Ders önerilerini becerilere göre güncelleyin."
-
-#: apps/taxonomy_support/management/commands/update_course_recommendations.py:41
-msgid ""
-"Use arguments from the UpdateCourseRecommendationsConfig model instead of "
-"the command line."
-msgstr ""
-"Komut satırı yerine UpdateCourseRecommendationsConfig modelindeki bağımsız "
-"değişkenleri kullanın."
 
 #: apps/taxonomy_support/models.py:24
 msgid "The original course, whose recommendation is stored here."
