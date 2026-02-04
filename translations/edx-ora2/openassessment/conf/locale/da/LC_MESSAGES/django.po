@@ -2126,19 +2126,19 @@ msgid "Error getting staff grade ungraded and checked out counts."
 msgstr ""
 "Fejl ved at få personalekarakteren ukarakteriseret og udtjekket tæller."
 
-#: xblock/staff_area_mixin.py:702
+#: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
 msgstr "Angiv en gyldig grund til at fjerne indsendelsen."
 
-#: xblock/staff_area_mixin.py:713
+#: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
 msgstr "Indsendelsen blev ikke fundet"
 
-#: xblock/staff_area_mixin.py:724
+#: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
 msgstr "Aflevering til teamopgave har ingen tilknyttet teamaflevering"
 
-#: xblock/staff_area_mixin.py:753
+#: xblock/staff_area_mixin.py:754
 msgid ""
 "The learner submission has been removed from peer assessment. The learner "
 "receives a grade of zero unless you delete the learner's state for the "
@@ -2148,7 +2148,7 @@ msgstr ""
 "karakteren nul, medmindre du sletter elevens tilstand for problemet for at "
 "give dem mulighed for at genindsende et svar."
 
-#: xblock/staff_area_mixin.py:788
+#: xblock/staff_area_mixin.py:789
 msgid ""
 "The team’s submission has been removed from grading. The team receives a "
 "grade of zero unless you delete a team member’s state for the problem to "

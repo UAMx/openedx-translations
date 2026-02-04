@@ -2664,9 +2664,9 @@ msgstr "تمت إعادة ضبط الإرسال بنجاح."
 msgid "You must specify a block id from which to copy a rubric."
 msgstr "يَجِب أنْ تُحَدِّد مُعَرَّف كُتلَة لِنَسخ مَعايير التقييم مِنها."
 
-#: xblock/openassessmentblock.py:1371
-msgid "The user does not exist."
-msgstr "المستخدم غير موجود."
+#: xblock/rubric_reuse_mixin.py:66
+msgid "Invalid block id."
+msgstr "معرف كتلة غير صالح."
 
 #: xblock/rubric_reuse_mixin.py:72
 #, python-brace-format
@@ -2740,19 +2740,19 @@ msgstr ""
 "حدث خطأ أثناء جلب أعداد الردود قيد التصحيح والردود غير المصحّحة بعد، ليتمكن "
 "طاقم المساق من المباشرة بعملية التصحيح."
 
-#: xblock/staff_area_mixin.py:702
+#: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
 msgstr "يُرجى إدخال سبب صالح لحذف التقديم."
 
-#: xblock/staff_area_mixin.py:713
+#: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
 msgstr "تعذر إيجاد ملف التقديم"
 
-#: xblock/staff_area_mixin.py:724
+#: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
 msgstr "لا يتضمن تقديم إجابة الفريق أي إجابة فريق مرتبطة"
 
-#: xblock/staff_area_mixin.py:753
+#: xblock/staff_area_mixin.py:754
 msgid ""
 "The learner submission has been removed from peer assessment. The learner "
 "receives a grade of zero unless you delete the learner's state for the "
@@ -2762,7 +2762,7 @@ msgstr ""
 " ما لم يُمحى ’وضع المتعلّم‘ لهذه المشكلة وذلك ليُسمح له بإعادة تقديم ردّ "
 "الإجابة من جديد."
 
-#: xblock/staff_area_mixin.py:788
+#: xblock/staff_area_mixin.py:789
 msgid ""
 "The team’s submission has been removed from grading. The team receives a "
 "grade of zero unless you delete a team member’s state for the problem to "

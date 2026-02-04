@@ -917,6 +917,15 @@ msgid ""
 "Catalog: {catalog_id}"
 msgstr "[企業 API] 在目錄中找不到精選課程。精選課程： {program_uuid} ，目錄： {catalog_id}"
 
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
+#: enterprise_learner_portal/api/v1/views.py:69
+#: enterprise_learner_portal/api/v1/views.py:132
+msgid ""
+"To use this endpoint, this package must be installed in an Open edX "
+"environment."
+msgstr "若要使用此端點，必須在 Open edX 環境中安裝此軟體套件。"
+
 #: enterprise/api_client/discovery.py:60
 #: enterprise/api_client/discovery.py:399 enterprise/utils.py:1638
 msgid ""
@@ -943,6 +952,26 @@ msgid ""
 "To get a ecommerce_api_client, this package must be installed in an Open edX"
 " environment."
 msgstr "若要取得 ecommerce_api_client，必須在 Open edX 環境中安裝此軟體套件。"
+
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr "指定要更新哪些用户角色分配。如果未指定，將為所有角色更新。"
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr "每批更新中要更新的用户角色分配數量。"
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "限制角色分配的企業客戶。"
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr "如果設置，則不會發生更新或創建；相反，將代替將要修改或建立的分配"
 
 #: enterprise/constants.py:14
 #, python-brace-format
@@ -2503,22 +2532,8 @@ msgstr "自訂進度；課程可以任何順序進行"
 msgid "{purchase_action} for"
 msgstr "{purchase_action}為"
 
-#: enterprise/config/models.py:41
+#: enterprise_learner_portal/api/v1/serializers.py:40
 msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr "指定要更新哪些用户角色分配。如果未指定，將為所有角色更新。"
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr "每批更新中要更新的用户角色分配數量。"
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "限制角色分配的企業客戶。"
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr "如果設置，則不會發生更新或創建；相反，將代替將要修改或建立的分配"
+"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
+msgstr "要使用此 EnterpriseCourseEnrollmentSerializer，必須在 Open edX 環境中安裝此軟體包。"
