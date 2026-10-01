@@ -1,8 +1,7 @@
 en:
   '% Correct': '% Korrekt'
-  '% Correct All Attempts': '% Korrekt Alla Försök'
   '% Correct First Attempts': '% Korrekt vid första försöket'
-  '% Correct Last Attempts': '% Korrekt sista försök'
+  '% Correct Last Attempts': '% Korrekt vid sista försöket'
   '% Incorrect': 'Felaktig'
   '% Video Seconds Rewatched': '% Videosekunder som spelats om'
   ? '<dl>
@@ -57,7 +56,6 @@ en:
   ClickHouse metrics: ClickHouse-mått
   Content Level: Innehållsnivå
   Correct Attempts: Korrekt antal försök
-  Correct Attempts By Learner: Korrekt antal försök av lärande
   Correct Attempts by Selected Learner: Korrekt antal försök av vald elev
   Count: Räkna
   Count of Passing Grades: Antal godkända betyg
@@ -87,9 +85,9 @@ en:
   Course name: Kursnamn
   Course run: Kurskörning
   Courses: Kurser
-  Courses Cnt: Kurser Ant
+  Courses Cnt: Kurser Antal
   Courses Per Organization: Kurser per organisation
-  Coursewide % Correct: Kursomfattande % Korrekt
+  Coursewide % Correct: Kursövergripande % Korrekt
   Coursewide Percent Correct: Kursövergripande procent korrekt
   Coursewide averages are based on learners who attempted the problem.: Kursgenomsnitt baseras på elever som försökte lösa problemet.
   Coursewide percentages are based on learners who attempted the problem.: Kursövergripande procentandelar baseras på elever som försökte lösa problemet.
@@ -116,9 +114,7 @@ en:
   Dump ID: Dump-ID
   Duration (Seconds): Varaktighet (sekunder)
   Email: E-post
-  Emission Day: Utsläppsdag
   Emission Hour: Utsläppstimme
-  Emission Time: Utsläppstid
   Engagement: Engagemang
   Enrolled At: Inskriven vid
   Enrollees by Enrollment Track: Antal deltagare per anmälningsspår
@@ -129,16 +125,16 @@ en:
   Enrollment Dates: Inskrivningsdatum
   Enrollment End: Inskrivning slutar
   Enrollment Mode: Inskrivningsläge
+  Enrollment Start: Inskrivningsstart
   Enrollment Status: Inskrivningsstatus
   Enrollment Track: Registreringsspår
   Enrollment status: Registreringsstatus
   Enrollment track: Registreringsspår
   Enrollments: Inskrivningar
   Event Activity: Evenemangsaktivitet
-  Event ID: Evenemangs-ID
+  Event ID: Händelse-ID
   Event String: Händelsesträng
-  Event Time: Händelsetid
-  Events Cnt: Händelser Antal
+  Event Time: Evenemangstid
   Fail Login Count: Antal misslyckade inloggningar
   Final Response Results: Slutliga svarsresultat
   First Name: Förnamn
@@ -153,10 +149,10 @@ en:
   Help: Hjälp
   Http User Agent: Http User Agent
   Id: Id
-  'In-Context Analytics: Course': 'Analys i kontext: Kurs'
+  'In-Context Analytics: Course': 'In-Context Analytics: Kurs'
   'In-Context Analytics: Graded Subsection': 'Analys i kontext: Bedömd delsektion'
   'In-Context Analytics: Problem': 'In-Context Analytics: Problem'
-  'In-Context Analytics: Video': 'Analys i kontext: Video'
+  'In-Context Analytics: Video': 'In-Context Analytics: Video'
   Incorrect Attempts: Felaktiga försök
   Incorrect Attempts by Selected Learner: Felaktiga försök av vald elev
   Individual Learner: Individuell lärande
@@ -188,14 +184,13 @@ en:
   Number of Learners: Antal elever
   Number of Learners who Attempted the Problem: Antal elever som försökte lösa problemet
   Number of Videos: Antal videor
-  Number of Videos Watched: Antal videor tittade på
   Number of Views across Video Duration: Antal visningar över videons längd
   Object ID: objekt-ID
   Object Id: Objekt-ID
   Object Type: Objekttyp
   Only available in versions Redwood and later: Endast tillgänglig i versioner Redwood och senare
   Operator Dashboard: Operatörspanel
-  Org: Organisation
+  Org: Org
   Organization: Organisation
   Organizations: Organisationer
   Overview: Översikt
@@ -223,7 +218,6 @@ en:
   Problem Name Location: Problemnamn Plats
   Problem Name With Location: Problemnamn med plats
   Problem Number: Problemnummer
-  Problem Part: Problemdel
   Problem Results: Problemresultat
   Problem Results Table: Resultattabell för problem
   Problems: Problem
@@ -234,33 +228,31 @@ en:
   Repeat Views: Upprepade visningar
   Respondents: Respondenter
   Response: Svar
-  Response Count: Svarsräkning
   Response Numeric: Svar Numerisk
   Responses: Svar
   Result: Resultat
   Result Rows: Resultatrader
   Rewatched Time: Omtittad tid
   Rownum: Rownum
-  Run Metrics: Körstatistik
+  Run Metrics: Körmetrik
   Run Name: Körnamn
   Scaled Score: Skalpoäng
-  Score Range: Poängintervall
   Section Location and Name: Avsnittets plats och namn
   Section Name: Avsnittsnamn
-  Section Subsection Video Engagement: Avsnitt Underavsnitt Videoengagemang
+  Section Subsection Video Engagement: Sektion Underavsnitt Videoengagemang
   Section Summary: Avsnittssammanfattning
   Section With Name: Avsnitt med namn
   Section with name: Avsnitt med namn
   Section/Subsection Name: Avsnitt/Underavsnitt Namn
-  Section/Subsection Page Enggagement: Sektion/Undersektion Sida Engagemang
-  Section/Subsection Problem Engagement: Sektion/Undersektion Problemengagemang
+  Section/Subsection Page Enggagement: Sektion/Underavsnitt Sidaengagemang
+  Section/Subsection Video Engagement: Sektion/Underavsnitt Videoengagemang
   Segment Range: Segmentintervall
   Segment Start: Segmentstart
   Selected Learner % Correct: Vald elev % korrekt
   Selected Learner % Incorrect: Vald elev % felaktigt
   Selected Learner Percent Correct: Vald elev procent korrekt
   Selected Learner Percent Incorrect: Vald elevprocent felaktig
-  Selected Learners % Correct: Valda elevers % korrekta
+  Selected Learners % Correct: Valda elever % korrekt
   Selected Learners % Incorrect: Valda elever % felaktigt
   Self Paced: Självstudier
   Slice ID: Slice-ID
@@ -271,14 +263,14 @@ en:
   Subsection Location and Name: Avsnittets plats och namn
   Subsection Name: Underavsnitt Namn
   Subsection Number: Underavsnittsnummer
-  Subsection Summary: Sammanfattning av underavsnitt
+  Subsection Summary: Avsnittssammanfattning
   Subsection With Name: Avsnitt med namn
   Subsection with name: Underavsnitt med namn
   Success: Framgång
   Superset: Superset
-  Superset Active Users: Superset Aktiva Användare
+  Superset Active Users: Aktiva användare i Superset
   Superset Active Users Over Time: Antal aktiva användare i Superset över tid
-  Superset Registered Users Over Time: Antal registrerade Superset-användare över tid
+  Superset Registered Users Over Time: Antal registrerade användare i Superset över tid
   Tables: Tabeller
   Tag: Märka
   Tags: Taggar
@@ -290,7 +282,7 @@ en:
   ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
   : För att se antalet visningar under en enskild videos varaktighet, klicka på videons namn i kolumnen Videolänk i tabellen ovan.
   Total: Total
-  Total Avg: Totalmedelvärde
+  Total Avg: Total genomsnitt
   Total Courses: Totalt antal kurser
   Total Organizations: Totalt antal organisationer
   Total Views: Totala visningar
@@ -304,7 +296,7 @@ en:
   Value: Värde
   Verb: Verb
   Verb ID: Verb-ID
-  Video Count: Videoräkning
+  Video Count: Videoräknare
   Video Duration: Videolängd
   Video Engagement: Videoengagemang
   Video Engagement per Section: Videoengagemang per avsnitt
@@ -326,6 +318,7 @@ en:
   Viewed All Videos: Tittat på alla videor
   Viewed At Least One Page: Visat minst en sida
   Visited On: Besökt den
+  Visualization Bucket: Visualiseringshink
   Watched Entire Video: Tittade på hela videon
   Watched Segment Count: Antal tittade segment
   Watched Time: Tittad tid
@@ -336,7 +329,6 @@ en:
   order: ordning
   passed: godkänd
   registered: registrerad
-  section_subsection_name: avsnitt_avsnitt_namn
   section_subsection_page_engagement: avsnitt_delavsnitt_sida_engagemang
   section_subsection_problem_engagement: avsnitt_delavsnitt_problem_engagemang
   sort: sortera

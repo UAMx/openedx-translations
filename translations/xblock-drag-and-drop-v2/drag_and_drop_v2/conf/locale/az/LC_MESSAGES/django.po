@@ -4,6 +4,7 @@
 # EdX Team <info@edx.org>, 2025.
 # 
 # Translators:
+# Eden Huthmacher, 2025
 # Brian Smith, 2025
 # 
 msgid ""
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Azerbaijani (https://app.transifex.com/open-edx/teams/6205/az/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +89,7 @@ msgstr "Əlbəttə, bu, bura uyğundur! Bu, hər yerə uyğundur!"
 
 #: default_data.py:29
 msgid "Goes to the top"
-msgstr "Üst tərəfə gedir"
+msgstr "Yuxarıya gedir"
 
 #: default_data.py:30
 msgid "Goes to the middle"
@@ -185,11 +186,11 @@ msgstr "\"Problem\" başlığını göstər"
 
 #: drag_and_drop_v2.py:136
 msgid "Display the heading \"Problem\" above the problem text?"
-msgstr "\"Problem\" başlığını problem mətninin yuxarısında göstərilsin?"
+msgstr "Başlıq \"Problem\" problem mətninin yuxarısında göstərilsin?"
 
 #: drag_and_drop_v2.py:142
 msgid "Show answer"
-msgstr "Cavabı göstər"
+msgstr "Qısa cavab"
 
 #: drag_and_drop_v2.py:143
 msgid ""
@@ -243,7 +244,7 @@ msgstr "Bütün cəhdlərdən sonra"
 
 #: drag_and_drop_v2.py:159
 msgid "After All Attempts or Correct"
-msgstr "Bütün cəhdlərdən sonra və ya düzgün"
+msgstr "Bütün Cəhdlərdən Sonra və ya Düzgün"
 
 #: drag_and_drop_v2.py:160
 msgid "Attempted"
@@ -344,7 +345,7 @@ msgstr ""
 #: drag_and_drop_v2.py:568
 #, python-brace-format
 msgid "Unknown DnDv2 mode {mode} - course is misconfigured"
-msgstr "DnDv2 rejimi {mode} naməlumdur - kurs səhv konfiqurasiya edilib"
+msgstr "Naməlum DnDv2 rejimi {mode} - kurs səhv konfiqurasiya edilib"
 
 #: drag_and_drop_v2.py:643
 msgid "show_answer handler should only be called for assessment mode"
@@ -461,24 +462,6 @@ msgstr "Şəkil və zonalar yarat"
 msgid "Background description"
 msgstr "Fon təsviri"
 
-#: templates/html/drag_and_drop_edit.html:189
-msgid ""
-"\n"
-"                            Please provide a description of the image for non-visual users.\n"
-"                            The description should provide sufficient information to allow anyone\n"
-"                            to solve the problem even without seeing the image.\n"
-"                        "
-msgstr ""
-"\n"
-"                            ```\n"
-"\n"
-"\n"
-"Zəhmət olmasa, görmə qabiliyyəti olmayan istifadəçilər üçün şəkilin təsvirini təqdim edin.\n"
-"Təsvir, şəkili görmədən belə, hər kəsin problemi həll etməsi üçün kifayət qədər məlumat verməlidir.\n"
-"\n"
-"```\n"
-"                        "
-
 #: templates/html/drag_and_drop_edit.html:199
 msgid "Zone labels"
 msgstr "Zona etiketləri"
@@ -554,21 +537,6 @@ msgid "Misplaced {misplaced_count} item"
 msgid_plural "Misplaced {misplaced_count} items"
 msgstr[0] "Səhv yerləşdirilmiş {misplaced_count} element"
 msgstr[1] "Səhv yerləşdirilmiş {misplaced_count} elementlər"
-
-#: utils.py:152
-#, python-brace-format
-msgid ""
-"Misplaced {misplaced_count} item (misplaced item was returned to the item "
-"bank)"
-msgid_plural ""
-"Misplaced {misplaced_count} items (misplaced items were returned to the item"
-" bank)"
-msgstr[0] ""
-"Yersiz yerləşdirilmiş {misplaced_count} maddə (yersiz yerləşdirilmiş maddə "
-"maddə bankına qaytarıldı)"
-msgstr[1] ""
-"Səhv yerləşdirilmiş {misplaced_count} element (səhv yerləşdirilmiş "
-"elementlər element bankına qaytarıldı)"
 
 #: utils.py:163
 #, python-brace-format
@@ -768,7 +736,7 @@ msgstr[1] "{possible}bal mümkündür (qiymətləndirilməyib)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"
-msgstr "Sürükleyib Buraxma Problemi"
+msgstr "Sürükle və Burax Problemi"
 
 #: public/js/drag_and_drop.js:662
 msgid "Problem"
@@ -777,10 +745,6 @@ msgstr "Problem"
 #: public/js/drag_and_drop.js:687
 msgid "Item Bank"
 msgstr "Məhsul Bankı"
-
-#: public/js/drag_and_drop.js:732
-msgid "Drop Targets"
-msgstr "Düşmə Hədəfləri"
 
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."

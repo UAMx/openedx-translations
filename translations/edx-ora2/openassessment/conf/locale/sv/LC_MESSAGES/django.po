@@ -5,14 +5,16 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
+# Transifex Bot <>, 2025
+# Eden Huthmacher, 2025
 # Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"POT-Creation-Date: 2025-04-25 00:35+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/open-edx/teams/6205/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +65,7 @@ msgstr ""
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
-msgstr "Jämlikar"
+msgstr "Kollega"
 
 #: assessment/score_type_constants.py:22
 msgid "Self"
@@ -197,7 +199,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:5
 msgid "Display Name "
-msgstr "Visas som "
+msgstr "Visningsnamn "
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:8
 msgid "The display name for this component."
@@ -368,18 +370,6 @@ msgstr "Ange om eleverna kan se rubriken medan de arbetar med sitt svar."
 msgid "Allow Learner Resubmissions"
 msgstr "Tillåt ominsändningar från elever"
 
-#: templates/legacy/edit/oa_edit_basic_settings_list.html:174
-msgid ""
-"Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
-"resubmissions are not allowed."
-msgstr ""
-"Ställ in på TRUE för att tillåta elever att skicka in ograduerat arbete "
-"igen. Ställ in på FALSE om ominsändningar inte är tillåtna."
-
-#: templates/legacy/edit/oa_edit_basic_settings_list.html:178
-msgid "Resubmission Grace Period"
-msgstr "Ominlämningsperiod"
-
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:187
 msgid ""
 "Specify the maximum period during which resubmissions are allowed. If left "
@@ -401,13 +391,6 @@ msgstr "Kriterium"
 #: templates/legacy/edit/oa_edit_criterion.html:7
 msgid "You cannot delete a criterion after the assignment has been released."
 msgstr "Du kan inte radera ett kriterium efter att uppgiften har släppts."
-
-#: templates/legacy/edit/oa_edit_criterion.html:9
-#: templates/legacy/edit/oa_edit_option.html:7
-#: templates/legacy/edit/oa_edit_prompt.html:10
-#: templates/legacy/edit/oa_training_example.html:10
-msgid "Remove"
-msgstr "Ta bort"
 
 #: templates/legacy/edit/oa_edit_criterion.html:17
 msgid "Criterion Name"
@@ -434,7 +417,7 @@ msgstr "Frivillig"
 #: templates/legacy/student_training/student_training.html:93
 #: xblock/studio_mixin.py:56
 msgid "Required"
-msgstr "Obligatorisk"
+msgstr "Nödvändig"
 
 #: templates/legacy/edit/oa_edit_criterion.html:61
 msgid ""
@@ -443,10 +426,6 @@ msgid ""
 msgstr ""
 "Välj ett av alternativen ovan. Det här beskriver huruvida granskaren ska "
 "lämna kriteriumåterkoppling eller ej."
-
-#: templates/legacy/edit/oa_edit_header_and_validation.html:3
-msgid "Open Response Assessment"
-msgstr "Bedömning av öppna svar"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:8
 #: templates/legacy/edit/oa_edit_prompt.html:7
@@ -503,7 +482,7 @@ msgid ""
 msgstr ""
 "Konfiguration: För att det här steget ska konfigureras måste du ange antalet"
 " peer reviews en student kommer att bedömas med, och antalet peer en student"
-" måste bedöma. Ytterligare alternativ kan anges."
+" måste betygsätta. Ytterligare alternativ kan anges."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
 msgid "View Options & Configuration"
@@ -1144,6 +1123,14 @@ msgstr ""
 "Denna uppgift är stängd. En eller flera deadlines för denna uppgift har "
 "gått. Du kommer att få en ofullständig betyg för denna uppgift."
 
+#: templates/legacy/message/oa_message_complete.html:8
+msgid ""
+"You have completed this assignment. Your final grade will be available when "
+"the assessments of your response are complete."
+msgstr ""
+"Du har slutfört denna uppgift. Din slutbetyg kommer att finnas tillgängliga "
+"när bedömningen av ditt svar är fullständigt."
+
 #: templates/legacy/message/oa_message_complete.html:10
 msgid ""
 "You have completed this assignment. Review your grade and your assessment "
@@ -1198,6 +1185,17 @@ msgstr ""
 "                                    Denna uppgift pågår. Du behöver fortfarande slutföra %(start_link)s självbedömning %(end_link)s steget.\n"
 "                                "
 
+#: templates/legacy/message/oa_message_incomplete.html:38
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    Denna uppgift pågår.%(start_strong)sSteget för gruppbedömning stänger snart.%(end_strong)s Alla inlämnade svar på svar har bedömts. Kolla tillbaka senare för att se om fler elever har lämnat in svar. Du behöver fortfarande slutföra %(start_link)s gruppbedömning %(end_link)s steget.\n"
+"                                "
+
 #: templates/legacy/message/oa_message_incomplete.html:42
 #, python-format
 msgid ""
@@ -1206,7 +1204,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Denna uppgift pågår. Alla inlämnade svar på svar har bedömts. Kolla tillbaka senare för att se om fler elever har lämnat in svar. Du behöver fortfarande slutföra %(start_link)s bedöma %(end_link)s steget.\n"
+"                                    Denna uppgift pågår. Alla inlämnade svar på svar har bedömts. Kolla tillbaka senare för att se om fler elever har lämnat in svar. Du behöver fortfarande slutföra %(start_link)s gruppbedömning %(end_link)s steget.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:50
@@ -1428,7 +1426,7 @@ msgstr "Vi kunde inte hämta ytterligare inlagor för bedömning"
 
 #: templates/legacy/peer/oa_peer_complete.html:43
 msgid "Continue Assessing Peers"
-msgstr "Fortsätt att bedöma peers"
+msgstr "Fortsätt att utvärdera peers"
 
 #: templates/legacy/peer/oa_peer_turbo_mode.html:26
 #: templates/legacy/peer/oa_peer_turbo_mode_waiting.html:20
@@ -1483,20 +1481,6 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
 msgstr "Ditt teams svar"
-
-#. Translators: This string displays a date to the user, then tells them the
-#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
-#. 45 minutes)"
-#: templates/legacy/response/oa_response.html:39
-#, python-format, python-brace-format
-msgid ""
-"\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"            "
-msgstr ""
-"\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"            "
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1620,7 +1604,7 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
-msgstr "Team Respons "
+msgstr "Teamets svar "
 
 #: templates/legacy/response/oa_response.html:173
 msgid "Your Response "
@@ -1635,20 +1619,6 @@ msgstr "(Nödvändig)"
 #: templates/legacy/response/oa_response.html:249
 msgid "(Optional)"
 msgstr "(Frivillig)"
-
-#: templates/legacy/response/oa_response.html:183
-msgid ""
-"\n"
-"                                              Teams should designate one team member to submit a response on behalf of the\n"
-"                                              entire team.  All team members can use this space to work on draft responses,\n"
-"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
-"                                              please coordinate with them to decide on the final response the designated team\n"
-"                                              member should submit.\n"
-"                                          "
-msgstr ""
-"\n"
-"                                              Team bör utse en lagmedlem att skicka in ett svar å hela lagets vägnar.  Alla lagmedlemmar kan använda detta utrymme för att arbeta med utkast till svar, men ni kommer inte att kunna se era lagkamraters utkast som gjorts i detta utrymme, så vänligen koordinera med dem för att bestämma det slutliga svaret som den utsedda lagmedlemmen ska skicka in.\n"
-"                                          "
 
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
@@ -1698,19 +1668,19 @@ msgstr "Välj en fil att ladda upp för den här inlämningen."
 msgid "Supported file types: "
 msgstr "Filtyper som stöds: "
 
-#: templates/legacy/response/oa_response.html:286
+#: templates/legacy/response/oa_response.html:285
 msgid "Upload files"
 msgstr "Ladda upp filer"
 
-#: templates/legacy/response/oa_response.html:288
+#: templates/legacy/response/oa_response.html:287
 msgid "Upload file"
 msgstr "Ladda upp fil"
 
-#: templates/legacy/response/oa_response.html:305
+#: templates/legacy/response/oa_response.html:304
 msgid "This is a team submission."
 msgstr "Detta är en laginlämning."
 
-#: templates/legacy/response/oa_response.html:307
+#: templates/legacy/response/oa_response.html:306
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
@@ -1718,7 +1688,7 @@ msgstr ""
 "En gruppmedlem ska skicka in ett svar med teamets delade filer och ett "
 "textmeddelande på uppdrag av hela teamet."
 
-#: templates/legacy/response/oa_response.html:309
+#: templates/legacy/response/oa_response.html:308
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
@@ -1726,16 +1696,16 @@ msgstr ""
 "En gruppmedlem ska skicka in ett svar med teamets delade filer på uppdrag av"
 " hela teamet."
 
-#: templates/legacy/response/oa_response.html:311
+#: templates/legacy/response/oa_response.html:310
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr "En lagmedlem bör lämna in ett textrespons å hela lagets vägnar."
 
-#: templates/legacy/response/oa_response.html:313
+#: templates/legacy/response/oa_response.html:312
 msgid "One team member should submit on behalf of the entire team."
 msgstr "En gruppmedlem ska lämna in på uppdrag av hela laget."
 
-#: templates/legacy/response/oa_response.html:315
+#: templates/legacy/response/oa_response.html:314
 msgid ""
 "\n"
 "                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
@@ -1745,11 +1715,11 @@ msgstr ""
 "                  Läs mer om teamuppgifter här: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">länk</a>)\n"
 "                  "
 
-#: templates/legacy/response/oa_response.html:323
+#: templates/legacy/response/oa_response.html:322
 msgid "We could not submit your response"
 msgstr "Vi kunde inte lämna in ditt svar"
 
-#: templates/legacy/response/oa_response.html:334
+#: templates/legacy/response/oa_response.html:333
 msgid "Submit your response and move to the next step"
 msgstr "Skicka ditt svar och gå vidare till nästa steg"
 
@@ -1843,20 +1813,6 @@ msgid ""
 msgstr ""
 "\n"
 "                        Du behöver fortfarande fylla i %(peer_start_tag)s gruppbedömning %(end_tag)s och %(self_start_tag)s självbedömning %(end_tag)s steg.\n"
-"                    "
-
-#: templates/legacy/response/oa_response_submitted.html:38
-#, python-format
-msgid ""
-"\n"
-"                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
-"                    "
-msgstr ""
-"\n"
-"                        ```\n"
-"                        \n"
-"Du behöver fortfarande slutföra %(start_tag)speer assessment%(end_tag)s steg.\n"
-"```\n"
 "                    "
 
 #: templates/legacy/response/oa_response_submitted.html:42
@@ -2062,11 +2018,6 @@ msgstr ""
 "                                        Svar för: %(student_username)s\n"
 "                                    "
 
-#: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:34
-#: templates/legacy/staff_area/oa_staff_override_assessment.html:24
-msgid "Learner Response"
-msgstr "Lärarens svar"
-
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:39
 msgid "The teams's response to the prompt above"
 msgstr "Lagens svar på uppmaningen ovan"
@@ -2124,11 +2075,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    ```\n"
-"                    \n"
-"Visar elev: %(learner)s\n"
-"                \n"
-"```\n"
+"                    Visar elev: %(learner)s\n"
 "                "
 
 #: templates/legacy/staff_area/oa_student_info.html:28
@@ -2158,10 +2105,6 @@ msgstr "Peerbedömningar för denna elev"
 msgid "Peer Assessments Completed by This Learner"
 msgstr "Peerbedömningar slutförda av den här läraren"
 
-#: templates/legacy/staff_area/oa_student_info.html:81
-msgid "Learner's Self Assessment"
-msgstr "Lärares självbedömning"
-
 #: templates/legacy/staff_area/oa_student_info.html:87
 msgid "Staff Assessment for This Learner"
 msgstr "Personalbedömning för denna elev"
@@ -2177,21 +2120,6 @@ msgstr "Lärarens slutbetyg"
 #: templates/legacy/staff_area/oa_student_info.html:102
 msgid "Team's Final Grade"
 msgstr "Lagets slutbetyg"
-
-#: templates/legacy/staff_area/oa_student_info.html:112
-#, python-format
-msgid ""
-"\n"
-"                            Final grade: %(points_earned)s out of %(points_possible)s\n"
-"                        "
-msgstr ""
-"\n"
-"                            ```\n"
-"                            \n"
-"Slutbetyg: %(points_earned)s av %(points_possible)s\n"
-"                        \n"
-"```\n"
-"                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
@@ -2355,20 +2283,6 @@ msgstr ""
 "                  "
 
 #. Translators: This string displays a date to the user, then tells them the
-#. time until that date.  Example: "available August 13th, 2014 (in 5 days and
-#. 45 minutes)"
-#: templates/legacy/student_training/student_training.html:38
-#, python-format, python-brace-format
-msgid ""
-"\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"            "
-msgstr ""
-"\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"            "
-
-#. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
 #. minutes)"
 #: templates/legacy/student_training/student_training.html:45
@@ -2450,7 +2364,7 @@ msgstr "Studeringsutbildningssteget i denna uppgift kunde inte laddas."
 
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
-msgstr "Laddar bedömning av öppet svar..."
+msgstr "Laddar öppen responsbedömning..."
 
 #: xblock/grade_mixin.py:78 xblock/leaderboard_mixin.py:61
 msgid "An unexpected error occurred."
@@ -2458,7 +2372,7 @@ msgstr "Ett oväntat fel uppstod."
 
 #: xblock/grade_mixin.py:180
 msgid "Peer Assessment"
-msgstr "Kamratbedömning"
+msgstr "Peer Assessment"
 
 #: xblock/grade_mixin.py:182
 msgid "Self Assessment"
@@ -2496,10 +2410,6 @@ msgstr "Din självbedömning"
 #: xblock/grade_mixin.py:395 xblock/grade_mixin.py:554
 msgid "Your Comments"
 msgstr "Dina kommentarer"
-
-#: xblock/grade_mixin.py:429
-msgid "Peer Mean Grade"
-msgstr "Kamratersnittsbetyg"
 
 #: xblock/grade_mixin.py:430
 msgid "Peer Median Grade"
@@ -2794,6 +2704,12 @@ msgstr "Du måste ange minst ett exempel svar för elevutbildning."
 msgid "Each example response for learner training must be unique."
 msgstr "Varje exempel svar för elevens träning måste vara unik."
 
+#: xblock/utils/validation.py:160
+msgid "The \"required\" value must be true if staff assessment is the only step."
+msgstr ""
+"Det \"obligatoriska\" värdet måste vara sant om personalen bedömning är det "
+"enda steget."
+
 #: xblock/utils/validation.py:164
 msgid ""
 "The number of assessments cannot be changed after the problem has been "
@@ -2857,10 +2773,6 @@ msgstr "Punktvärden kan inte ändras efter att ett problem har släppts."
 #: xblock/utils/validation.py:304
 msgid "Learner training must have at least one training example."
 msgstr "Lärarutbildning måste ha minst ett träningsexempel."
-
-#: xblock/utils/validation.py:369
-msgid "Leaderboard number is invalid."
-msgstr "Numret på topplistan är ogiltigt."
 
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."

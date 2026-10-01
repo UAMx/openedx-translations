@@ -1,6 +1,5 @@
 en:
   '% Correct': 'འགྲིག་པ། % '
-  '% Correct First Attempts': 'ཐོག་མར་ལེགས་སྤྲོད་བྱས་པའི་བརྒྱ་ཆ་'
   '% Correct Last Attempts': 'བསྡོམས་ཀྱི་འགྲེལ་བཤད་དང་མཐའ་མའི་སྐུལ་འདེད།'
   '% Incorrect': 'འགྲིག་མེད་པ། %'
   '% Video Seconds Rewatched': 'བརྙན་ཐུང་ལ་བསྐྱར་ལྟ་བྱས་པའི་སྐར་ཆ་ %'
@@ -60,7 +59,6 @@ en:
   Correct Attempts by Selected Learner: བསལ་འདེམས་སློབ་གཉེར་བའི་ཚོད་ལྟ་འགྲིག་པ་ཁག
   Count: གྲངས་བརྩི།
   Count of Passing Grades: རྒྱུགས་འཕྲོད་པའི་གྲངས།
-  Count of Scores: སྡེ་རིམ་གྱི་གྱོན་ཚད
   Count of unique users who performed an action in Superset over the selected time period.: ཆེད་འདེམས་བྱས་པའི་དུས་ཡུན་ནང་དུ་ Superset ནང་བྱ་བར་ཞུགས་མཁན་གྱི་སྤྱོད་མི་ཐུན་མོང་མ་ཡིན་པའི་གྲངས་ཀ
   Count over time of unique users who performed an action in Superset over the selected time period.: ཆེད་འདེམས་བྱས་པའི་དུས་ཡུན་ནང་དུ་ Superset ནང་བྱ་བ་བྱེད་མཁན་གྱི་སྤྱོད་མི་ཐུན་མོང་མ་ཡིན་པའི་དུས་བསྟུན་གྱི་གྲངས་ཀ
   Course Comparison Dashboard: སློབ་ཚན་གཤིབ་བསྡུར་གྱི་གཙོ་ངོས།
@@ -140,7 +138,6 @@ en:
   Event Time: བྱ་འགུལ་གྱི་དུས་ཚོད།
   Events Cnt: བྱ་འགུལ་གྱི་ Cnt
   Fail Login Count: ནང་འཛུལ་གྱི་གྲངས་བརྩི་མ་ཐུབ།
-  Final Response Results: མཇུག་ལུགས་ཀྱི་ལན་གྱི་འབྲས་བུ།
   First Name: ཡིག་ཆའི་མིང་།
   Full Views: ཧྲིལ་བོ་སྟོན།
   Grade Bucket: གནས་རིམ་སྣོད།
@@ -149,14 +146,10 @@ en:
   Graded: གནས་རིམ་བྱས་ཟིན་པ།
   Graded Learners: གནས་རིམ་བྱས་ཟིན་པའི་སློབ་གཉེར་བ།
   Graded Subsection Engagement: གྲུབ་འབྲས་དངོས་གཞི་ལག་དེབ་ལ་ཞིབ་དཔྱད་བྱེད་པ།
-  Graded Subsection Performance: དབྱེ་རིམ་བརྒྱུད་རིམ་གྱི་ལེགས་སྤྱོད་
   Help: རམ་འདེགས།
   Http User Agent: Http སྤྱོད་མཁན་གྱི་ཚན་པ།
   Id: Id
   'In-Context Analytics: Course': 'ནང་དོན་རྣམ་གྲངས།: སློབ་ཚན།'
-  'In-Context Analytics: Graded Subsection': 'ནང་དོན་རྣམ་གྲངས། སྡེ་ཚན་སྡེ་རིམ་བརྒྱབས།'
-  'In-Context Analytics: Problem': 'ནང་དོན་རྣམ་གྲངས། འགྲེལ་བཤད།'
-  'In-Context Analytics: Video': 'དེ་སྒོར་དཔྱད་ཞིབ། བརྙན་འཕྲིན།'
   Incorrect Attempts: ཚོད་ལྟ་ནོར་བ།
   Incorrect Attempts By Learner: སློབ་གཉེར་བའི་ཚོད་ལྟ་ནོར་བ།
   Incorrect Attempts by Selected Learner: བསལ་འདེམས་སློབ་གཉེར་བའི་ཚོད་ལྟ་ནོར་བ།
@@ -226,7 +219,6 @@ en:
   Problem Name Location: དྲི་བའི་མིང་། ས་གནས།
   Problem Name With Location: དྲི་བའི་མིང་དང་དེའི་ས་གནས།
   Problem Results: དྲི་བའི་གྲུབ་འབྲས།
-  Problem Results Table: བསྐྱར་ཞིབ་ཀྱི་ཐོ་བཀོད།
   Problems: དྲི་བ་ཁག
   Query: འདྲི་རྩད།
   Query Duration Ms: འདྲི་རྩད་ཀྱི་དུས་ཡུན།
@@ -234,7 +226,6 @@ en:
   Read Rows: འཕྲེད་རིམ་རྣམས་ཀློག
   Repeat Views: བསྐྱར་ལྟ་བྱས་པ།
   Response: ལན།
-  Response Count: ལན་གྱི་གྲངས།
   Response Numeric: ལན་ཨང་རྩིས།
   Responses: ལན་འདེབས།
   Result: མཐའ་འབྲས།
@@ -243,8 +234,6 @@ en:
   Rownum: Rownum
   Run Metrics: སློབ་ཁྲིད་ཀྱི་ཚད་འཇལ་ཆས།
   Run Name: རྒྱུགས་མིང་
-  Scaled Score: ཚད་བཟོ་བའི་སྡེབ་ཚན་
-  Score Range: སྡེ་རིམ་སྡེབ་ཚན
   Section Location and Name: སྡེ་ཚན་གྱི་ས་གནས་དང་མིང་།
   Section Name: སྡེ་ཚན་གྱི་མིང་།
   Section Subsection Video Engagement: སྡེ་ཚནདང་ནང་གསེས་སྡེ་ཚན་གྱི་བརྙན་དང་འབྲེལ་འདྲིས།
@@ -294,7 +283,6 @@ en:
   Total Organizations: ཁྱོན་བསྡོམས་ཚོགས་པ།
   Total Views: ཁྱོན་བསྡོམས་བལྟས་པ།
   Unique Viewers: ཐུན་མོང་མ་ཡིན་པའི་ལྟ་མཁན་རྣམས།
-  Unique vs. Repeat Views: གཅིག་གྱུར་དང་སྐྱར་ལྟ་བ།
   User ID: སྤྱོད་མཁན་གྱི་ ID
   User Info: སྤྱོད་མཁན་གྱི་གནས་ཚུལ།
   User Name: སྤྱོད་མཁན་གྱི་མིང་།
@@ -315,7 +303,7 @@ en:
   Video Link: བརྙན་གྱི་དྲ་ཐག
   Video Location and Name: བརྙན་གྱི་ས་གནས་དང་མིང་།
   Video Name: བརྙན་གྱི་མིང་།
-  Video Name Location: བརྙན་རིས་མིང་གི་གནས་ཚུལ་
+  Video Name Location: བརྙན་རིས་མིང་གནས་སྡུད་
   Video Name With Location: བརྙན་གྱི་མིང་ཡོད་པའི་ས་གནས།
   Video Number: བརྙན་རིས་ཨང་།
   Video Position: བརྙན་འཇོག་གནས།

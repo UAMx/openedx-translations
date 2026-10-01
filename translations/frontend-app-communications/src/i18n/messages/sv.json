@@ -1,7 +1,7 @@
 {
   "bulk.email.send.email.header": "Skicka ett e-postmeddelande",
   "bulk.email.back.to.instructorDashboard": "Tillbaka till instruktörens instrumentpanel",
-  "bulk.email.form.schedule.date": "Skickdatum",
+  "bulk.email.form.schedule.date": "Skicka datum",
   "bulk.email.form.schedule.date.description": "Ange ett startdatum, t.ex. {date}",
   "bulk.email.form.schedule.time": "Skicka tid",
   "bulk.email.form.schedule.time.description": "Ange en starttid, t.ex. {time}",

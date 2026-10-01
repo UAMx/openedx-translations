@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"POT-Creation-Date: 2025-04-25 00:35+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Hindi (https://app.transifex.com/open-edx/teams/301281/hi/)\n"
+"Language-Team: Hindi (https://app.transifex.com/open-edx/teams/6205/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,25 +37,6 @@ msgstr ""
 #, python-brace-format
 msgid "Example {example_number} has a validation error: {error}"
 msgstr "उदाहरण {example_number} में एक सत्यापन त्रुटि है: {error}"
-
-#: assessment/api/student_training.py:217
-#, python-brace-format
-msgid ""
-"Example {example_number} has an invalid option for \"{criterion_name}\": "
-"\"{option_name}\""
-msgstr ""
-"उदाहरण {example_number} '{criterion_name}' के लिए एक अमान्य विकल्प है: ' "
-"{option_name}';"
-
-#: assessment/api/student_training.py:227
-#, python-brace-format
-msgid "Example {example_number} has an extra option for \"{criterion_name}\""
-msgstr "उदाहरण {example_number} \"{criterion_name}\" के लिए एक अतिरिक्त विकल्प है"
-
-#: assessment/api/student_training.py:240
-#, python-brace-format
-msgid "Example {example_number} is missing an option for \"{criterion_name}\""
-msgstr "उदाहरण {example_number} में \"{criterion_name}\" का विकल्प मौजूद नहीं है"
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
@@ -165,11 +146,6 @@ msgstr "प्रतिक्रिया फ़ाइलें"
 #: data.py:1367
 msgid "No description provided."
 msgstr "कोई विवरण नहीं दिया गया."
-
-#: data.py:1626 templates/legacy/edit/oa_edit_criterion.html:54
-#: xblock/studio_mixin.py:58
-msgid "None"
-msgstr "कोई नहीं"
 
 #: templates/legacy/edit/oa_edit.html:28
 msgid "Save"
@@ -537,14 +513,6 @@ msgstr ""
 #: templates/legacy/edit/oa_edit_peer_assessment.html:36
 msgid "Graded By"
 msgstr "द्वारा श्रेणीकृत "
-
-#: templates/legacy/edit/oa_edit_peer_assessment.html:39
-msgid ""
-"Specify the number of learners that each response must be assessed by. Valid"
-" numbers are 1 to 99."
-msgstr ""
-"उन शिक्षार्थियों की संख्या निर्दिष्ट करें जिनके द्वारा प्रत्येक प्रतिक्रिया "
-"का मूल्यांकन किया जाना चाहिए। मान्य संख्याएँ 1 से 99 तक हैं।"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:43
 msgid "Enable Flexible Peer Grade Averaging"
@@ -924,10 +892,6 @@ msgstr ""
 "%(points_possible)s में से %(points_earned)s\n"
 "                                    "
 
-#: templates/legacy/grade/oa_grade_cancelled.html:38
-msgid "Your submission has been cancelled."
-msgstr "आपका सबमिशन रद्द कर दिया गया है।"
-
 #: templates/legacy/grade/oa_grade_complete.html:19
 #, python-format
 msgid ""
@@ -1090,14 +1054,6 @@ msgstr ""
 #: templates/legacy/staff_area/oa_staff_area.html:153
 msgid "Grade Available Responses"
 msgstr "ग्रेड उपलब्ध प्रतिक्रियाएँ"
-
-#: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:26
-msgid ""
-"Grade Available Responses is unavailable. This item is not configured for "
-"Staff Assessment."
-msgstr ""
-"ग्रेड उपलब्ध प्रतिक्रियाएँ अनुपलब्ध है। यह आइटम स्टाफ़ मूल्यांकन के लिए "
-"कॉन्फ़िगर नहीं किया गया है।"
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
@@ -1278,21 +1234,6 @@ msgstr ""
 #: templates/legacy/message/oa_message_no_team.html:4
 msgid "Team membership is required to view this assignment"
 msgstr "इस असाइनमेंट को देखने के लिए टीम सदस्यता आवश्यक है"
-
-#: templates/legacy/message/oa_message_no_team.html:7
-#, python-format
-msgid ""
-"\n"
-"            This is a team assignment for team-set \"%(teamset_name)s\".\n"
-"            You are currently not on a team in team-set \"%(teamset_name)s\".\n"
-"            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
-"            "
-msgstr ""
-"\n"
-"यह टीम-सेट '%(teamset_name)s'के लिए एक टीम असाइनमेंट है।\n"
-" आप वर्तमान में टीम-सेट '%(teamset_name)s' में किसी टीम में नहीं हैं।\n"
-" इस टीम असाइनमेंट तक पहुंचने के लिए आपको टीम-सेट '%(teamset_name)s' में एक टीम में होना चाहिए।\n"
-"            "
 
 #: templates/legacy/message/oa_message_open.html:7
 #, python-format
@@ -1713,24 +1654,6 @@ msgstr "(आवश्यक)"
 msgid "(Optional)"
 msgstr "(वैकल्पिक)"
 
-#: templates/legacy/response/oa_response.html:183
-msgid ""
-"\n"
-"                                              Teams should designate one team member to submit a response on behalf of the\n"
-"                                              entire team.  All team members can use this space to work on draft responses,\n"
-"                                              but you will not be able to see your teammates' drafts made in this space, so\n"
-"                                              please coordinate with them to decide on the final response the designated team\n"
-"                                              member should submit.\n"
-"                                          "
-msgstr ""
-"\n"
-"टीमों को अपनी ओर से प्रतिक्रिया प्रस्तुत करने के लिए एक टीम सदस्य को नामित करना चाहिए\n"
-" पूरी टीम। टीम के सभी सदस्य इस स्थान का उपयोग ड्राफ्ट प्रतिक्रियाओं पर काम करने के लिए कर सकते हैं,\n"
-" लेकिन आप इस स्थान पर बनाए गए अपने साथियों के ड्राफ्ट नहीं देख पाएंगे, इसलिए\n"
-" कृपया नामित टीम द्वारा अंतिम प्रतिक्रिया पर निर्णय लेने के लिए उनके साथ समन्वय करें\n"
-" सदस्य को प्रस्तुत करना चाहिए।.\n"
-"                                          "
-
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
 msgstr "उपरोक्त संकेत पर अपनी प्रतिक्रिया दर्ज करें।"
@@ -1757,10 +1680,6 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
 msgstr "हम आपकी प्रगति को जमा नहीं कर सके"
-
-#: templates/legacy/response/oa_response.html:232
-msgid "Status of Your Response"
-msgstr "आपकी प्रतिक्रिया की स्थिति"
 
 #: templates/legacy/response/oa_response.html:245
 msgid "File Uploads "
@@ -1798,19 +1717,15 @@ msgstr "इस सबमिशन के लिए अपलोड करने 
 msgid "Supported file types: "
 msgstr "समर्थित फ़ाइल प्रकार: "
 
-#: templates/legacy/response/oa_response.html:286
+#: templates/legacy/response/oa_response.html:285
 msgid "Upload files"
 msgstr "फाइलें अपलोड करें"
 
-#: templates/legacy/response/oa_response.html:288
+#: templates/legacy/response/oa_response.html:287
 msgid "Upload file"
 msgstr "फ़ाइल अपलोड करें"
 
-#: templates/legacy/response/oa_response.html:305
-msgid "This is a team submission."
-msgstr "यह एक टीम सबमिशन है।"
-
-#: templates/legacy/response/oa_response.html:307
+#: templates/legacy/response/oa_response.html:306
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
@@ -1818,7 +1733,7 @@ msgstr ""
 "टीम के एक सदस्य को टीम की साझा फ़ाइलों के साथ एक प्रतिक्रिया और पूरी टीम की "
 "ओर से एक पाठ प्रतिक्रिया प्रस्तुत करनी चाहिए।"
 
-#: templates/legacy/response/oa_response.html:309
+#: templates/legacy/response/oa_response.html:308
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
@@ -1826,18 +1741,18 @@ msgstr ""
 "टीम के एक सदस्य को पूरी टीम की ओर से टीम की साझा फ़ाइलों के साथ प्रतिक्रिया "
 "प्रस्तुत करनी चाहिए।"
 
-#: templates/legacy/response/oa_response.html:311
+#: templates/legacy/response/oa_response.html:310
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr ""
 "टीम के एक सदस्य को पूरी टीम की ओर से एक टेक्स्ट प्रतिक्रिया प्रस्तुत करनी "
 "चाहिए।"
 
-#: templates/legacy/response/oa_response.html:313
+#: templates/legacy/response/oa_response.html:312
 msgid "One team member should submit on behalf of the entire team."
 msgstr "टीम के एक सदस्य को पूरी टीम की ओर से प्रस्तुत करना चाहिए।"
 
-#: templates/legacy/response/oa_response.html:315
+#: templates/legacy/response/oa_response.html:314
 msgid ""
 "\n"
 "                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
@@ -1847,17 +1762,13 @@ msgstr ""
 "टीम असाइनमेंट के बारे में यहां अधिक जानें: ( <a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">लिंक</a> )\n"
 "                  "
 
-#: templates/legacy/response/oa_response.html:323
+#: templates/legacy/response/oa_response.html:322
 msgid "We could not submit your response"
 msgstr "हम आपकी प्रतिक्रिया को जमा नहीं कर सके"
 
-#: templates/legacy/response/oa_response.html:334
+#: templates/legacy/response/oa_response.html:333
 msgid "Submit your response and move to the next step"
 msgstr "अपनी प्रतिक्रियाओं को जमा कर अगले चरण में जावें "
-
-#: templates/legacy/response/oa_response_cancelled.html:34
-msgid "Your submission was cancelled. "
-msgstr "आपका सबमिशन रद्द कर दिया गया।"
 
 #: templates/legacy/response/oa_response_cancelled.html:37
 #, python-format
@@ -1981,23 +1892,6 @@ msgstr "प्रतिक्रिया रीसेट करें और �
 msgid "Error"
 msgstr "त्रुटि"
 
-#: templates/legacy/response/oa_response_team_already_submitted.html:29
-#, python-format
-msgid ""
-"\n"
-"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
-"                            and you will not receive a grade for their response. You have also not previously submitted\n"
-"                            a response to this assignment with another team. Please contact course staff to discuss your\n"
-"                            options for this assignment.\n"
-"                        "
-msgstr ""
-"\n"
-"इस असाइनमेंट के लिए प्रतिक्रिया सबमिट करने के बाद आप टीम %(team_name)s में शामिल हो गए\n"
-" और आपको उनकी प्रतिक्रिया के लिए कोई ग्रेड नहीं मिलेगा। आपने पहले भी सबमिट नहीं किया है\n"
-" किसी अन्य टीम के साथ इस असाइनमेंट का उत्तर। कृपया अपनी चर्चा के लिए पाठ्यक्रम स्टाफ से संपर्क करें\n"
-" इस असाइनमेंट के लिए विकल्प।\n"
-"                        "
-
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
 msgstr "आपकी प्रतिक्रियाओं का आंकलन"
@@ -2120,11 +2014,6 @@ msgstr "तिथियाॅ"
 #: templates/legacy/staff_area/oa_staff_area.html:118
 msgid "Release Date"
 msgstr "अवतरण की तिथि "
-
-#: templates/legacy/staff_area/oa_staff_area.html:131
-#: templates/legacy/staff_area/oa_staff_area.html:137
-msgid "N/A"
-msgstr "लागू नहीं"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners.html:7
 msgid "Staff Assessment"
@@ -2370,14 +2259,6 @@ msgstr ""
 " पुनः सबमिट करने की अनुमति देने के लिए समस्या के लिए टीम सदस्य की स्थिति को "
 "हटा नहीं देते, तब तक टीम को शून्य ग्रेड प्राप्त होता है।"
 
-#: templates/legacy/staff_area/oa_student_info.html:177
-msgid "The problem has not been started."
-msgstr "समस्या प्रारंभ नहीं की गई है।"
-
-#: templates/legacy/staff_area/oa_student_info.html:181
-msgid "The problem has not been completed."
-msgstr "समस्या पूरी नहीं हुई है।"
-
 #: templates/legacy/staff_area/oa_student_info.html:193
 msgid "Submit Assessment Grade Override"
 msgstr "मूल्यांकन ग्रेड ओवरराइड सबमिट करें"
@@ -2443,10 +2324,6 @@ msgstr "टिप्पणियाँ:"
 #: templates/legacy/staff_area/oa_student_info.html:261
 msgid "Remove submission"
 msgstr "सबमिशन हटाएँ"
-
-#: templates/legacy/staff_area/oa_student_info.html:276
-msgid "A response was not found for this learner."
-msgstr "इस शिक्षार्थी के लिए कोई प्रतिक्रिया नहीं मिली।"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:16
 #, python-format
@@ -2578,22 +2455,9 @@ msgstr "हम आपके मूल्यांकन की जाँच न�
 msgid "Compare your selections with the instructor's selections"
 msgstr "अपने चयन की तुलना प्रशिक्षक के चयन से करें"
 
-#: templates/legacy/student_training/student_training_closed.html:29
-msgid ""
-"The due date for this step has passed. This step is now closed. You can no "
-"longer continue with this assignment, and you will receive a grade of "
-"Incomplete."
-msgstr ""
-"इस चरण की नियत तिथि बीत चुकी है। यह चरण अब बंद हो गया है. अब आप इस असाइनमेंट"
-" को जारी नहीं रख सकते, और आपको अपूर्ण का ग्रेड प्राप्त होगा।"
-
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
 msgstr "शिक्षार्थी प्रशिक्षण उदाहरण लोड करने में त्रुटि"
-
-#: templates/legacy/student_training/student_training_error.html:21
-msgid "The Learner Training Step of this assignment could not be loaded."
-msgstr "इस असाइनमेंट का शिक्षार्थी प्रशिक्षण चरण लोड नहीं किया जा सका।"
 
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
@@ -2716,31 +2580,15 @@ msgstr "स्व-मूल्यांकन से सहकर्मी म�
 msgid "Self Assessment to Staff Assessment"
 msgstr "स्व-मूल्यांकन से लेकर कर्मचारी मूल्यांकन तक"
 
-#: xblock/openassessmentblock.py:1365
-msgid "You can't reset your submission."
-msgstr "आप अपना सबमिशन रीसेट नहीं कर सकते।"
-
 #: xblock/openassessmentblock.py:1378
 msgid "The user does not exist."
 msgstr "उपभोक्ता अस्तित्व मे नहीं है।"
-
-#: xblock/openassessmentblock.py:1381
-msgid "There is no submission to reset."
-msgstr "रीसेट करने के लिए कोई सबमिशन नहीं है।"
-
-#: xblock/openassessmentblock.py:1383
-msgid "Submission reset successfully."
-msgstr "सबमिशन सफलतापूर्वक रीसेट हो गया।"
 
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
 msgstr ""
 "आपको एक ब्लॉक आईडी निर्दिष्ट करनी होगी जिससे रूब्रिक की प्रतिलिपि बनाई जा "
 "सके।"
-
-#: xblock/rubric_reuse_mixin.py:66
-msgid "Invalid block id."
-msgstr "अमान्य ब्लॉक आईडी।"
 
 #: xblock/rubric_reuse_mixin.py:72
 #, python-brace-format
@@ -2753,10 +2601,6 @@ msgstr ""
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
 msgstr "आपके पास प्रशिक्षण शेड्यूल करने की अनुमति नहीं है"
-
-#: xblock/staff_area_mixin.py:43
-msgid "You do not have permission to reschedule tasks."
-msgstr "आपके पास कार्यों को पुनर्निर्धारित करने की अनुमति नहीं है।"
 
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
@@ -2790,10 +2634,6 @@ msgstr "प्रस्तुत नही किया है"
 msgid "Submitted"
 msgstr "प्रस्तुत कर दिया गया"
 
-#: xblock/staff_area_mixin.py:341
-msgid "Error getting learner information."
-msgstr "शिक्षार्थी जानकारी प्राप्त करने में त्रुटि।"
-
 #: xblock/staff_area_mixin.py:384
 msgid "Error loading the checked out learner response."
 msgstr "जांचे गए शिक्षार्थी प्रतिक्रिया को लोड करने में त्रुटि।"
@@ -2802,10 +2642,6 @@ msgstr "जांचे गए शिक्षार्थी प्रतिक
 msgid "No other learner responses are available for grading at this time."
 msgstr ""
 "इस समय ग्रेडिंग के लिए कोई अन्य शिक्षार्थी प्रतिक्रिया उपलब्ध नहीं है।"
-
-#: xblock/staff_area_mixin.py:387
-msgid "Error getting staff grade information."
-msgstr "स्टाफ ग्रेड की जानकारी प्राप्त करने में त्रुटि।"
 
 #: xblock/staff_area_mixin.py:408
 msgid "Error getting staff grade ungraded and checked out counts."
@@ -2860,183 +2696,3 @@ msgid ""
 msgstr ""
 "त्रुटि: जब पाठ प्रतिक्रिया अक्षम होती है, तो फ़ाइल अपलोड प्रतिक्रिया आवश्यक "
 "होनी चाहिए"
-
-#: xblock/studio_mixin.py:271
-msgid ""
-"Error: When File Upload Response is disabled, Text Response must be Required"
-msgstr ""
-"त्रुटि: जब फ़ाइल अपलोड प्रतिक्रिया अक्षम होती है, तो टेक्स्ट प्रतिक्रिया "
-"आवश्यक होनी चाहिए"
-
-#: xblock/studio_mixin.py:295
-#, python-brace-format
-msgid "Validation error: {error}"
-msgstr "सत्यापन त्रुटि: {error}"
-
-#: xblock/studio_mixin.py:329
-msgid "Successfully updated OpenAssessment XBlock"
-msgstr "OpenAssessment XBlock को सफलतापूर्वक अपडेट किया गया"
-
-#: xblock/utils/data_conversion.py:315
-msgid "You must provide options selected in the assessment."
-msgstr "आपको मूल्यांकन में चयनित विकल्प प्रदान करने होंगे।"
-
-#: xblock/utils/data_conversion.py:318
-msgid "You must provide overall feedback in the assessment."
-msgstr "आपको मूल्यांकन में समग्र फीडबैक देना होगा।"
-
-#: xblock/utils/data_conversion.py:321
-msgid "You must provide feedback for criteria in the assessment."
-msgstr "आपको मूल्यांकन में मानदंड के लिए फीडबैक देना होगा।"
-
-#: xblock/utils/resolve_dates.py:52
-#, python-brace-format
-msgid ""
-"'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
-"MM-DDTHH:MM:SS."
-msgstr ""
-"'{date}' एक अमान्य दिनांक स्वरूप है। सुनिश्चित करें कि दिनांक YYYY-MM-"
-"DDTHH:MM:SS स्वरूपित है।"
-
-#: xblock/utils/resolve_dates.py:57
-#, python-brace-format
-msgid "'{date}' must be a date string or datetime"
-msgstr "'{date}' एक दिनांक स्ट्रिंग या दिनांक-समय होना चाहिए"
-
-#: xblock/utils/resolve_dates.py:210
-#, python-brace-format
-msgid ""
-"This step's start date '{start}' cannot be earlier than the previous step's "
-"start date '{prev}'."
-msgstr ""
-"इस चरण की आरंभ तिथि '{start}' पिछले चरण की आरंभ तिथि '{prev}' से पहले नहीं "
-"हो सकती।"
-
-#: xblock/utils/resolve_dates.py:218
-#, python-brace-format
-msgid ""
-"This step's due date '{due}' cannot be later than the next step's due date "
-"'{prev}'."
-msgstr ""
-"इस चरण की नियत तिथि '{due}' अगले चरण की नियत तिथि '{prev}' से बाद की नहीं हो"
-" सकती।"
-
-#: xblock/utils/resolve_dates.py:234
-#, python-brace-format
-msgid "The start date '{start}' cannot be later than the due date '{due}'"
-msgstr "आरंभ तिथि '{start}' नियत तिथि से बाद की नहीं हो सकती '{due}'"
-
-#: xblock/utils/validation.py:120
-msgid "This problem must include at least one assessment."
-msgstr "इस समस्या में कम से कम एक मूल्यांकन अवश्य शामिल होना चाहिए।"
-
-#: xblock/utils/validation.py:124
-msgid "The assessment order you selected is invalid."
-msgstr "आपके द्वारा चुना गया मूल्यांकन क्रम अमान्य है।"
-
-#: xblock/utils/validation.py:134
-msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
-msgstr ""
-"सहकर्मी मूल्यांकन में, \"ग्रेड अवश्य करें\" मान एक धनात्मक पूर्णांक होना "
-"चाहिए।"
-
-#: xblock/utils/validation.py:137
-msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
-msgstr ""
-"सहकर्मी मूल्यांकन में, \"ग्रेडेड बाय\" मान एक धनात्मक पूर्णांक होना चाहिए।"
-
-#: xblock/utils/validation.py:141
-msgid ""
-"In peer assessment, the \"Must Grade\" value must be greater than or equal "
-"to the \"Graded By\" value."
-msgstr ""
-"सहकर्मी मूल्यांकन में, \"ग्रेड अवश्य करें\" मान \"ग्रेडित करें\" मान से अधिक"
-" या बराबर होना चाहिए।"
-
-#: xblock/utils/validation.py:150
-msgid "You must provide at least one example response for learner training."
-msgstr ""
-"आपको शिक्षार्थी प्रशिक्षण के लिए कम से कम एक उदाहरण प्रतिक्रिया प्रदान करनी "
-"होगी।"
-
-#: xblock/utils/validation.py:153
-msgid "Each example response for learner training must be unique."
-msgstr ""
-"शिक्षार्थी प्रशिक्षण के लिए प्रत्येक उदाहरण की प्रतिक्रिया अद्वितीय होनी "
-"चाहिए।"
-
-#: xblock/utils/validation.py:160
-msgid "The \"required\" value must be true if staff assessment is the only step."
-msgstr ""
-"यदि कर्मचारियों का मूल्यांकन ही एकमात्र कदम है तो &quot;आवश्यक&quot; मान "
-"सत्य होना चाहिए।"
-
-#: xblock/utils/validation.py:164
-msgid ""
-"The number of assessments cannot be changed after the problem has been "
-"released."
-msgstr "समस्या जारी होने के बाद मूल्यांकन की संख्या नहीं बदली जा सकती।"
-
-#: xblock/utils/validation.py:169
-msgid ""
-"The assessment type cannot be changed after the problem has been released."
-msgstr "समस्या जारी होने के बाद मूल्यांकन प्रकार को बदला नहीं जा सकता।"
-
-#: xblock/utils/validation.py:176
-msgid ""
-"The grading strategy for peer assessments cannot be changed after the "
-"problem has been released."
-msgstr ""
-"समस्या जारी होने के बाद सहकर्मी मूल्यांकन के लिए ग्रेडिंग रणनीति में बदलाव "
-"नहीं किया जा सकता।"
-
-#: xblock/utils/validation.py:200
-msgid "This rubric definition is not valid."
-msgstr "यह रूब्रिक परिभाषा मान्य नहीं है।"
-
-#: xblock/utils/validation.py:203
-msgid "You must provide at least one prompt."
-msgstr "आपको कम से कम एक संकेत अवश्य देना होगा।"
-
-#: xblock/utils/validation.py:209
-#, python-brace-format
-msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
-msgstr "'{criterion}' में विकल्पों के नाम डुप्लिकेट हैं:{duplicates}"
-
-#: xblock/utils/validation.py:217
-msgid "Criteria with no options must require written feedback."
-msgstr ""
-"बिना विकल्प वाले मानदंड के लिए लिखित प्रतिक्रिया की आवश्यकता होनी चाहिए।"
-
-#: xblock/utils/validation.py:226
-msgid "Prompts cannot be created or deleted after a problem is released."
-msgstr "समस्या जारी होने के बाद संकेत बनाए या हटाए नहीं जा सकते।"
-
-#: xblock/utils/validation.py:230
-msgid "The number of criteria cannot be changed after a problem is released."
-msgstr "समस्या जारी होने के बाद मानदंडों की संख्या नहीं बदली जा सकती।"
-
-#: xblock/utils/validation.py:243
-msgid "Criteria names cannot be changed after a problem is released"
-msgstr "समस्या जारी होने के बाद मानदंड के नाम नहीं बदले जा सकते"
-
-#: xblock/utils/validation.py:248
-msgid "The number of options cannot be changed after a problem is released."
-msgstr "समस्या जारी होने के बाद विकल्पों की संख्या नहीं बदली जा सकती।"
-
-#: xblock/utils/validation.py:253
-msgid "Point values cannot be changed after a problem is released."
-msgstr "समस्या जारी होने के बाद बिंदु मानों को बदला नहीं जा सकता।"
-
-#: xblock/utils/validation.py:304
-msgid "Learner training must have at least one training example."
-msgstr ""
-"शिक्षार्थी प्रशिक्षण में कम से कम एक प्रशिक्षण उदाहरण अवश्य होना चाहिए।"
-
-#: xblock/utils/validation.py:369
-msgid "Leaderboard number is invalid."
-msgstr "लीडरबोर्ड नंबर अमान्य है।"
-
-#: xblock/utils/validation.py:392
-msgid "The submission format is invalid."
-msgstr "सबमिशन प्रारूप अमान्य है।"

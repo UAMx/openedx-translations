@@ -4,6 +4,8 @@
 # EdX Team <info@edx.org>, 2025.
 # 
 # Translators:
+# Transifex Bot <>, 2025
+# Eden Huthmacher, 2025
 # Brian Smith, 2025
 # 
 msgid ""
@@ -11,7 +13,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/open-edx/teams/6205/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -197,8 +199,8 @@ msgid ""
 " option."
 msgstr ""
 "Definierar när svaret på problemet ska visas. Ett standardvärde kan ställas "
-"in i Avancerade Inställningar. För att återgå till standardvärdet, välj "
-"alternativet 'Standard'."
+"in i Avancerade inställningar. För att återgå till standardinställningen, "
+"välj alternativet 'Standard'."
 
 #: drag_and_drop_v2.py:149
 msgid "Default"
@@ -312,20 +314,9 @@ msgstr ""
 "Information om aktuella positioner för objekt som en elev har släppt på "
 "målbilden."
 
-#: drag_and_drop_v2.py:217
-msgid "Number of attempts learner used"
-msgstr "Antal försök som läraren har använt"
-
 #: drag_and_drop_v2.py:224
 msgid "Indicates whether a learner has completed the problem at least once"
 msgstr "Anger om en elev har slutfört problemet minst en gång"
-
-#: drag_and_drop_v2.py:231
-msgid ""
-"DEPRECATED. Keeps maximum score achieved by student as a weighted value."
-msgstr ""
-"DEPRECERADE. Behåller högsta poäng som studenten uppnått som ett viktat "
-"värde."
 
 #: drag_and_drop_v2.py:237
 msgid ""
@@ -502,7 +493,7 @@ msgstr "Föremål"
 
 #: templates/html/drag_and_drop_edit.html:274
 msgid "Item definitions"
-msgstr "Definitioner av objekt"
+msgstr "Objektdefinitioner"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"
@@ -543,21 +534,6 @@ msgid "Misplaced {misplaced_count} item"
 msgid_plural "Misplaced {misplaced_count} items"
 msgstr[0] "Felplacerad {misplaced_count} artikel"
 msgstr[1] "Felplacerade {misplaced_count} objekt"
-
-#: utils.py:152
-#, python-brace-format
-msgid ""
-"Misplaced {misplaced_count} item (misplaced item was returned to the item "
-"bank)"
-msgid_plural ""
-"Misplaced {misplaced_count} items (misplaced items were returned to the item"
-" bank)"
-msgstr[0] ""
-"Misplacerad {misplaced_count} artikel (felplacerad artikel returnerades till"
-" artikelbanken)"
-msgstr[1] ""
-"Felplacerade {misplaced_count} objekt (felplacerade objekt returnerades till"
-" objektbanken)"
 
 #: utils.py:163
 #, python-brace-format

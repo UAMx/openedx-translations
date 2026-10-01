@@ -35,6 +35,8 @@
   "ora-grading.ListView.backToResponsesLowercase": "zurück zu allen offenen Antworten",
   "ora-grading.ListView.reloadSubmissions": "Einsendungen neu laden",
   "ora-grading.ListView.loadingResponses": "Antworten werden geladen",
+  "ora-grading.NotificationsBanner.Message": "Sie können jetzt Benachrichtigungen für ORA-Aufgaben aktivieren, die eine Benotung durch Mitarbeiter erfordern, und zwar über",
+  "ora-grading.NotificationsBanner.linkMessage": "Einstellungscenter.",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableNameHeader": "Name",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableExtensionHeader": "Dateierweiterung",
   "ora-grading.ResponseDisplay.SubmissionFiles.tablePopoverHeader": "Dateimetadaten",

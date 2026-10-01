@@ -14,7 +14,7 @@
   "record.table.header.school": "Iskola",
   "record.table.header.course.id": "Kurzus azonosító",
   "record.table.header.highest.grade": "Legmagasabb elért osztályzat",
-  "record.table.header.letter.grade": "Betűjegy",
+  "record.table.header.letter.grade": "",
   "record.table.header.verified.attempts": "Ellenőrzött Próbálkozások",
   "record.table.header.date.earned": "",
   "record.table.header.status": "Állapot",

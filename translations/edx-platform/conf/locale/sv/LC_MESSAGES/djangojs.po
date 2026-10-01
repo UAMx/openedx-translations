@@ -11,17 +11,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
+# Transifex Bot <>, 2025
+# Eden Huthmacher, 2025
 # Brian Smith, 2025
-# Omar Al-Ithawi <i@omardo.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 00:44+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
+"POT-Creation-Date: 2025-04-25 00:36+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/open-edx/teams/6205/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,11 +65,11 @@ msgstr "Fel vis sparande av OpenAssessment"
 msgid "Saving"
 msgstr "Sparar"
 
-#: cms/static/js/base.js:113
+#: cms/static/js/base.js:101
 msgid "This link will open in a new browser window/tab"
 msgstr "Denna länk öppnas i ett nytt webbläsarfönster/flik"
 
-#: cms/static/js/base.js:120
+#: cms/static/js/base.js:108
 msgid "This link will open in a modal window"
 msgstr "Den här länken kommer öppnas upp i en pop-up"
 
@@ -89,8 +90,8 @@ msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
 msgstr ""
-"Detta certifikat har redan aktiverat och är live. Är du säker på att du vill"
-" fortsätta redigera?"
+"Detta certifikat har redan aktiverats och är live. Är du säker på att du "
+"vill fortsätta redigera?"
 
 #: cms/static/js/certificates/views/certificate_details.js:48
 msgid "Yes, allow edits to the active Certificate"
@@ -539,7 +540,6 @@ msgstr "Din fil kunde inte laddas upp"
 #: cms/static/js/views/modals/course_outline_modals.js:351
 #: cms/static/js/views/modals/edit_xblock.js:151
 #: cms/static/js/views/video_transcripts.js:325
-#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -676,7 +676,7 @@ msgstr "Lägga till biblioteksinnehåll"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:652
+#: cms/static/js/views/pages/container.js:642
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Lägger till"
@@ -695,8 +695,8 @@ msgstr "Är du säker på att du vill ta bort den här uppdateringen?"
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:424
-#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:414
+#: cms/static/js/views/pages/container.js:426 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -706,7 +706,7 @@ msgid "OK"
 msgstr "OK"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:779
+#: cms/static/js/views/pages/container.js:767
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Kopierar"
@@ -716,31 +716,31 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr "Kopia av \"{componentDisplayName}\""
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:395
+#: cms/static/js/views/pages/container.js:385
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Klistra in"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/pages/container.js:409
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Några fel inträffade"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:421
+#: cms/static/js/views/pages/container.js:411
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "De följande obligatoriska filerna kunde inte läggas till i kursen:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:419
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
-msgstr "Du kan behöva uppdatera en fil(er) manuellt"
+msgstr "Du kan behöva uppdatera en eller flera filer manuellt"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:432
+#: cms/static/js/views/pages/container.js:422
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -750,25 +750,25 @@ msgstr ""
 "används av komponenten du klistrade in:"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Nya fil(er) har lagts till i Filer & Uppladdningar."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/pages/container.js:433
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "Följande obligatoriska filer importerades till denna kurs:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:448
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Visa filer"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:457
+#: cms/static/js/views/pages/container.js:447
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Avfärda"
@@ -779,7 +779,7 @@ msgstr "Skapa Re-run"
 
 #: cms/static/js/views/course_rerun.js:60
 msgid "Processing Re-run Request"
-msgstr "Bearbetar begäran om omkörning"
+msgstr "Bearbetning av begäran om omkörning"
 
 #: cms/static/js/views/course_video_settings.js:25
 msgid "An error has occurred. Wait a few minutes, and then try again."
@@ -808,7 +808,7 @@ msgid "Select language"
 msgstr "Välj språk"
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:362
+#: cms/static/js/views/metadata.js:357
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -1084,7 +1084,7 @@ msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js:22
 msgid "Return and add email address"
-msgstr "Återgå och lägga till e-postadress"
+msgstr "Återgå och lägg till e-postadress"
 
 #: cms/static/js/views/manage_users_and_roles.js:25
 msgid "Already a member"
@@ -1112,7 +1112,7 @@ msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr ""
 "Är du säker på att du vill begränsa {email} åtkomst till “{container}”?"
 
-#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "Ladda upp fil"
 
@@ -1328,7 +1328,7 @@ msgstr "Datum tillagt"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:731
+#: cms/static/js/views/pages/container.js:719
 msgid "Editing access for: {title}"
 msgstr "Redigeringsåtkomst för: {title}"
 
@@ -1694,7 +1694,7 @@ msgstr "Fel: Uppladdningen misslyckades."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:141
 msgid "Error: Import failed."
-msgstr "Fel: Importeringen misslyckades."
+msgstr "Fel: Importen misslyckades."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:155
 msgid "Error: Replacing failed."
@@ -1818,10 +1818,6 @@ msgstr "{minutes} {unit}"
 msgid "seconds"
 msgstr "sekunder"
 
-#: cms/static/js/views/video_thumbnail.js:198
-msgid "second"
-msgstr "andra"
-
 #. Translators: message will be like 20 seconds, 1 second
 #: cms/static/js/views/video_thumbnail.js:201
 msgid "{seconds} {unit}"
@@ -1935,7 +1931,7 @@ msgstr "Varning"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:84
+#: lms/static/js/student_account/views/FinishAuthView.js:82
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -2419,7 +2415,7 @@ msgstr "Något gick fel. Vänligen försök igen senare."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:127
 msgid "Add Attachment"
-msgstr "Lägga till fil"
+msgstr "Bifoga fil"
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:128
 msgid "(Optional)"
@@ -2580,11 +2576,6 @@ msgstr "namn"
 msgid "team count"
 msgstr "antal team"
 
-#: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js:10
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:173
-msgid "Teams"
-msgstr "Team"
-
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:34
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
@@ -2684,6 +2675,14 @@ msgstr "Senaste aktivitet %(date)s"
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:93
 msgid "Remove this team member?"
 msgstr "Ta bort denna medlem?"
+
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:94
+msgid ""
+"This learner will be removed from the team,allowing another learner to take "
+"the available spot."
+msgstr ""
+"Denna elev kommer tas bort från teamet, vilket låter en annan elev ta plats "
+"i teamet."
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:33
 msgid "Delete this team?"
@@ -3760,68 +3759,61 @@ msgstr "Laddar data..."
 msgid "Error getting issued certificates list."
 msgstr "Fel vid hämtning av lista över utfärdade certifikat."
 
-#: lms/static/js/instructor_dashboard/data_download.js:124
+#: lms/static/js/instructor_dashboard/data_download.js:123
 msgid "Error generating anonymous IDs. Please try again."
 msgstr "Fel vid generering av anonyma ID:n. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:150
+#: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
 "Ett fel uppstod när provresultaten skulle genereras. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:176
+#: lms/static/js/instructor_dashboard/data_download.js:175
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr "Det gick inte att generera enkätresultat. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:202
+#: lms/static/js/instructor_dashboard/data_download.js:201
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 "Det gick inte att generera studentprofilinformation. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:228
+#: lms/static/js/instructor_dashboard/data_download.js:227
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr "Läser in"
 
-#: lms/static/js/instructor_dashboard/data_download.js:236
+#: lms/static/js/instructor_dashboard/data_download.js:235
 msgid "Error getting student list."
 msgstr "Det gick inte att hämta elevlistan."
 
-#: lms/static/js/instructor_dashboard/data_download.js:302
+#: lms/static/js/instructor_dashboard/data_download.js:301
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "Det gick inte att skapa lista över studenter som kan registrera sig. Var god"
 " försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:327
-msgid ""
-"Error generating list of inactive students who are enrolled in a course. "
-"Please try again."
-msgstr ""
-"Fel vid generering av lista över inaktiva studenter som är inskrivna i en "
-"kurs. Försök igen."
-
-#: lms/static/js/instructor_dashboard/data_download.js:359
+#: lms/static/js/instructor_dashboard/data_download.js:333
 msgid "Error retrieving grading configuration."
 msgstr "Det gick inte att hämta betygskonfigurationen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:384
+#: lms/static/js/instructor_dashboard/data_download.js:358
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr "Fel vid generering av betyg. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:386
+#: lms/static/js/instructor_dashboard/data_download.js:360
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
-msgstr "Fel vid generering av problemrapportsbetyg. Var god försök igen."
+msgstr ""
+"Fel vid generering av problemrapporter för betyg. Var god försök igen."
 
-#: lms/static/js/instructor_dashboard/data_download.js:388
+#: lms/static/js/instructor_dashboard/data_download.js:362
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr "Fel vid generering av ORA-datarapport. Var god försök igen."
@@ -3952,7 +3944,7 @@ msgstr "Detta fält får inte lämnas tomt."
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
 msgid "These users were successfully added as beta testers:"
-msgstr "Dessa användare lades framgångsrikt till som betatestare:"
+msgstr "Dessa användare har lagts till som betatestare:"
 
 #: lms/static/js/instructor_dashboard/membership.js:539
 msgid ""
@@ -4214,16 +4206,6 @@ msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
 msgstr ""
 "Ta bort student '<%- student_id %>s status på problemet '<%- problem_id %>'?"
-
-#: lms/static/js/instructor_dashboard/student_admin.js:205
-msgid ""
-"Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
-" %>'. Make sure that the problem and student identifiers are complete and "
-"correct."
-msgstr ""
-"Fel vid borttagning av student '<%- student_id %>'s status på problemet '<%-"
-" problem_id %>'. Se till att problemet och elevidentifieringarna är "
-"fullständiga och korrekta."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:216
 msgid "Module state successfully deleted."
@@ -4857,39 +4839,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Användarvillkor och Uppförandekod"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:71
-msgid "query param next is provide"
-msgstr "frågeparametern next är tillhandahållen"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:73
-msgid "query param next is internal"
-msgstr "frågeparametern next är intern"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:111
+#: lms/static/js/student_account/views/FinishAuthView.js:109
 msgid "Saving your email preference"
 msgstr "Sparar dina mailinställningar"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:129
+#: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
 msgstr "Registrerar dig på den valda kursen"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:140
-msgid "course mode param is not provided"
-msgstr "kurslägeparametern är inte angiven"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:148
-msgid "course mode param is provided"
-msgstr "kurslägeparametern är angiven"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:163
+#: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
 msgstr "Lägga till den valda kursen i din varukorg"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:167
-msgid " redirect the user to the next page"
-msgstr " omdirigera användaren till nästa sida"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:177
+#: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
 msgstr "Laddar dina kurser"
 
@@ -5207,7 +5169,7 @@ msgid "Bookmark this page"
 msgstr "Bokmärk den här sidan"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:521
+#: xmodule/js/src/sequence/display.js:445
 msgid "Bookmarked"
 msgstr "bokmärkt"
 
@@ -5319,16 +5281,16 @@ msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned}/{possible} poäng (ograderad)"
 msgstr[1] "{earned}/{possible}poäng (icke betygsatta)"
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "Betygsättningen körs fortfarande. Ladda om sidan för att se uppdateringar."
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:458
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "Kunde inte betygsätta ditt svar. Inlämningen avbröts."
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:522
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5338,33 +5300,33 @@ msgstr ""
 " kan använda Chrome eller Safari, som har verifierats för att stödja "
 "filuppladdningar."
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:548
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Du skickade in {filename}; endast {allowedFiles} är tillåtna."
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:561
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "Din fil {filename} är för stor (maxstorlek: {maxSize}MB)."
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:577
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Du lämnade inte in de nödvändiga filerna: {requiredFiles}."
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:587
 msgid "You did not select any files to submit."
 msgstr "Du valde inte några filer att skicka in."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:681
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:712
 msgid "This problem has been reset."
 msgstr "Det här problemet har återställts."
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1018
 msgid "unsubmitted"
 msgstr "inte inlämnad"
 
@@ -5881,13 +5843,13 @@ msgstr "Header cell"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
 msgid "Header"
-msgstr "Rubrik"
+msgstr "Header"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:630
 msgid "Headers"
-msgstr "Rubriker"
+msgstr "Headers"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6206,7 +6168,7 @@ msgstr "Pre"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:940
 msgid "Prev"
-msgstr "Föregående"
+msgstr "Prev"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6400,7 +6362,7 @@ msgstr "Subscript"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1115
 msgid "Superscript"
-msgstr "Upphöjd text"
+msgstr "Superscript"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6445,8 +6407,8 @@ msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
 msgstr ""
-"Den URL du angav verkar vara en e-postadress. Vill du lägga till det "
-"nödvändiga prefixet mailto:?"
+"URL:en som du skrivit verkar vara en e-postadress. Vill du lägga till "
+"prefixet mailto: vilket är nödvändigt?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6558,6 +6520,12 @@ msgstr "Ord: {0}"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
+#: xmodule/js/src/html/edit.js:1235
+msgid "You have unsaved changes are you sure you want to navigate away?"
+msgstr "Du har osparade ändringar. Är du säker på att du vill navigera iväg?"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1240
 msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
@@ -6640,7 +6608,7 @@ msgstr ""
 msgid "Explanation"
 msgstr "Förklaring"
 
-#: xmodule/js/src/sequence/display.js:406
+#: xmodule/js/src/sequence/display.js:330
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -6684,11 +6652,6 @@ msgstr "Helskärm"
 #: xmodule/js/src/video/08_video_speed_control.js:46
 msgid "Speed"
 msgstr "Hastighet"
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr "Auto-avancerar"
 
 #: xmodule/js/src/video/00_i18n.js:23
 #: xmodule/js/src/video/07_video_volume_control.js:72
@@ -6737,10 +6700,6 @@ msgstr "Din webbläsare kan inte spela upp filtyperna .mp4, .ogg eller .webm."
 #: xmodule/js/src/video/02_html5_video.js:88
 msgid "Try using a different browser, such as Google Chrome."
 msgstr "Testa en annan webbläsare, som till exempel Google Chrome."
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr "Hög Definition"
 
 #: xmodule/js/src/video/05_video_quality_control.js:26
 #: xmodule/js/src/video/05_video_quality_control.js:159
@@ -6828,31 +6787,31 @@ msgstr "Visa inte igen"
 msgid "Open language menu"
 msgstr "Öppna språkmeny"
 
-#: xmodule/js/src/video/09_video_caption.js:630
+#: xmodule/js/src/video/09_video_caption.js:589
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Transkriptionen kommer att visas när du börjar spela videon."
 
-#: xmodule/js/src/video/09_video_caption.js:878
+#: xmodule/js/src/video/09_video_caption.js:837
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr ""
-"Aktiverar en länk i den här gruppen kommer att hoppa över till motsvarande "
-"punkt i videon."
+"Aktivering av en länk i den här gruppen kommer att hoppa över till "
+"motsvarande punkt i videon."
 
-#: xmodule/js/src/video/09_video_caption.js:881
+#: xmodule/js/src/video/09_video_caption.js:840
 msgid "Video transcript"
 msgstr "Video transkription"
 
-#: xmodule/js/src/video/09_video_caption.js:884
+#: xmodule/js/src/video/09_video_caption.js:843
 msgid "Start of transcript. Skip to the end."
 msgstr "Start av transkription. Hoppa till slutet."
 
-#: xmodule/js/src/video/09_video_caption.js:888
+#: xmodule/js/src/video/09_video_caption.js:847
 msgid "End of transcript. Skip to the start."
 msgstr "Slutet av transkriptionen. Hoppa till början."
 
-#: xmodule/js/src/video/09_video_caption.js:892
+#: xmodule/js/src/video/09_video_caption.js:851
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -6862,23 +6821,23 @@ msgstr ""
 "pilknapparna för att navigera språkalternativen. Tryck på ENTER för att "
 "växla till det valda språket."
 
-#: xmodule/js/src/video/09_video_caption.js:1248
+#: xmodule/js/src/video/09_video_caption.js:1205
 msgid "Hide closed captions"
 msgstr "Dölj undertexter"
 
-#: xmodule/js/src/video/09_video_caption.js:1266
+#: xmodule/js/src/video/09_video_caption.js:1223
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Bildtexten kommer att visas när du börjar spela videon.)"
 
-#: xmodule/js/src/video/09_video_caption.js:1273
+#: xmodule/js/src/video/09_video_caption.js:1230
 msgid "Turn on closed captioning"
 msgstr "Sätt på undertexter"
 
-#: xmodule/js/src/video/09_video_caption.js:1381
+#: xmodule/js/src/video/09_video_caption.js:1338
 msgid "Turn on transcripts"
 msgstr "Sätt på textning"
 
-#: xmodule/js/src/video/09_video_caption.js:1396
+#: xmodule/js/src/video/09_video_caption.js:1353
 msgid "Turn off transcripts"
 msgstr "Stäng av textning"
 
@@ -6973,6 +6932,10 @@ msgstr "Provisorisk"
 msgid "Not Supported"
 msgstr "Inte stöds"
 
+#: cms/templates/js/add-xblock-component-support-level.underscore:3
+msgid "Fully Supported"
+msgstr "Med full support"
+
 #: cms/templates/js/add-xblock-component-support-level.underscore:6
 msgid "Provisionally Supported"
 msgstr "Provisoriskt stödd"
@@ -7008,7 +6971,7 @@ msgstr "Handlingar"
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "You haven't added any assets to this course yet."
-msgstr "Du har inte lägga till några tillgångar till den här kursen ännu."
+msgstr "Du har inte lagt till några tillgångar till den här kursen ännu."
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "Upload your first asset"
@@ -7315,7 +7278,7 @@ msgstr "Instruktörsbiografi"
 
 #: cms/templates/js/course-instructor-details.underscore:23
 msgid "Please add the instructor's biography"
-msgstr "Vänligen lägga till instruktörens biografi"
+msgstr "Vänligen lägg till instruktörens biografi"
 
 #: cms/templates/js/course-instructor-details.underscore:27
 msgid "Photo"
@@ -7530,7 +7493,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
-msgstr "Du har inte lägga till något innehåll till den här kursen än."
+msgstr "Du har inte lagt till något innehåll till den här kursen än."
 
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
@@ -7626,7 +7589,7 @@ msgstr "Lägga till"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
 msgid "Press Add to language"
-msgstr "Tryck på Lägga till språk"
+msgstr "Tryck på Lägg till språk"
 
 #: cms/templates/js/course-video-transcript-provider-empty.underscore:1
 msgid "Automated Transcripts"
@@ -7690,10 +7653,6 @@ msgid ""
 "assignment type."
 msgstr ""
 "Antalet underavsnitt i kursen som innehåller problem av denna uppgiftstyp."
-
-#: cms/templates/js/course_grade_policy.underscore:27
-msgid "Number of Droppable"
-msgstr "Antal uppgifter som kan utelämnas"
 
 #: cms/templates/js/course_grade_policy.underscore:29
 msgid ""
@@ -8088,7 +8047,7 @@ msgstr "För närvarande vald"
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "You haven't added any textbooks to this course yet."
-msgstr "Du har inte lägga till några läroböcker till den här kursen än."
+msgstr "Du har inte lagt till några läroböcker till den här kursen än."
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "Add your first textbook"
@@ -8564,10 +8523,6 @@ msgstr ""
 "att vara ett grundläggande prov genom att välja 'Ingen', eller ett "
 "tidsbegränsat prov, men du kommer INTE att kunna konfigurera det som ett "
 "övervakat prov i framtiden."
-
-#: cms/templates/js/timed-examination-preference-editor.underscore:29
-msgid "Timed"
-msgstr "Tidsbegränsad"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:38
 msgid "Proctored"
@@ -9995,7 +9950,7 @@ msgid ""
 "To invalidate a certificate for a particular learner, add the username or "
 "email address below."
 msgstr ""
-"För att ogiltigförklara ett certifikat för en viss elev, lägga till "
+"För att ogiltigförklara ett certifikat för en viss elev, lägg till "
 "användarnamnet eller e-postadressen nedan."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:11
@@ -10032,7 +9987,7 @@ msgstr "Hantera elever"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:12
 msgid "Add learners to this cohort"
-msgstr "Lägga till elever till denna kohort"
+msgstr "Lägg till elever i denna kohort"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:15
 msgid ""
@@ -10093,7 +10048,7 @@ msgstr "Automatisk"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:50
 msgid "Manual"
-msgstr "Manuell"
+msgstr "Manual"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:56
 msgid ""
@@ -10190,6 +10145,10 @@ msgstr "Aktivera kohorter"
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
 msgid "Select a cohort to manage"
 msgstr "Välj en kohort att hantera"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
+msgid "View Cohort"
+msgstr "Visa kohort"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
 msgid "Assign learners to cohorts by uploading a CSV file"
@@ -10291,11 +10250,11 @@ msgstr "Anmäl dig nu"
 msgid "Coming Soon"
 msgstr "Kommer snart"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:48
+#: lms/templates/learner_dashboard/course_enroll.underscore:47
 msgid "Enrollment Opens on"
 msgstr "Anmälan öppnar den"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:56
+#: lms/templates/learner_dashboard/course_enroll.underscore:54
 msgid "Not Currently Available"
 msgstr "Ej tillgänglig för närvarande"
 

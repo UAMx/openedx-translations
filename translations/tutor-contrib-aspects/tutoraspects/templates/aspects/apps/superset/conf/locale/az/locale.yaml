@@ -1,10 +1,7 @@
 en:
   '% Correct': '% Düzgün'
   '% Correct All Attempts': 'Bütün Cəhdlərin Düzgünlük Faizi'
-  '% Correct First Attempts': 'Birinci Cəhdlərin Düzgünlük Faizi'
-  '% Correct Last Attempts': 'Son Cəhdlərin Düzgünlük Faizi'
   '% Incorrect': '% Yanlış'
-  '% Video Seconds Rewatched': '% Yenidən Baxılan Video Saniyələri'
   '% Video Seconds Watched': '% İzlənilən Video Saniyələri'
   ? '<dl>
 
@@ -28,14 +25,12 @@ en:
   Active Users Per Organization: Hər Təşkilat Üzrə Aktiv İstifadəçilər
   Active Within Last 7 Days: Son 7 Gün Ərzində Aktiv
   Actor ID: Aktor ID
-  Actor Id: Aktor İd-si
+  Actor Id: Aktor ID
   Actors Count: Aktorların sayı
   Approving State: Təsdiq edən Dövlət
   At Risk: Risk altında
   At-Risk Learners: Risk altında olan öyrənənlər
   Attempt: Cəhd
-  Attempted All Problems: Bütün Problemləri Sınadı
-  Attempted At Least One Problem: Ən azı bir problemi cəhd etdi
   Attempts: Cəhdlər
   Average Score: Orta Bal
   Avg % Correct on 1st Attempt: 1-ci Cəhddə Orta % Düzgünlük
@@ -54,17 +49,16 @@ en:
   Changed On: Dəyişdirilmə Tarixi
   Chart showing the number of Superset actions taken on each chart in the selected time period.: Seçilmiş zaman dövründə hər bir qrafikdə Superset əməliyyatlarının sayını göstərən qrafik.
   Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Hər bir idarə panelində seçilmiş zaman dövründə həyata keçirilən Superset əməliyyatlarının sayını göstərən diaqram.
-  Chart showing the number of registered users over the selected time period.: Qrafik seçilmiş zaman müddətində qeydiyyatdan keçmiş istifadəçilərin sayını göstərir.
   ClickHouse: ClickHouse
   ClickHouse metrics: ClickHouse metrikaları
   Content Level: Məzmun Səviyyəsi
   Correct Attempts: Düzgün Cəhdlər
   Correct Attempts By Learner: Öyrənənin Düzgün Cəhdləri
-  Correct Attempts by Selected Learner: Seçilmiş Təlimçinin Düzgün Cəhdləri
+  Correct Attempts by Selected Learner: Seçilmiş öyrənən tərəfindən düzgün cəhdlər
   Count: Hesablayın
   Count of Passing Grades: Keçid qiymətlərinin sayı
   Count of Scores: Qiymətlərin Sayı
-  Count of unique users who performed an action in Superset over the selected time period.: Unikal istifadəçilərin seçilmiş zaman müddətində Superset-də hərəkət edənlərin sayı.
+  Count of unique users who performed an action in Superset over the selected time period.: Seçilmiş zaman dövründə Superset-də hərəkət edən unikal istifadəçilərin sayı.
   Count over time of unique users who performed an action in Superset over the selected time period.: Seçilmiş zaman dövründə Superset-də hərəkət edən unikal istifadəçilərin zamanla sayı.
   Course Comparison Dashboard: Kurs Müqayisə Paneli
   Course Dashboard: Kurs Paneli
@@ -98,12 +92,11 @@ en:
   Created: Yaradıldı
   Created By Fk: Fk tərəfindən yaradılıb
   Created On: Yaradılma Tarixi
-  Cumulative Enrollments by Track: Yığılmış Qeydiyyatlar üzrə İzləmə
   Cumulative Interactions: Kumulativ Qarşılıqlı Əlaqələr
   Current Active Enrollments By Mode: Cari Aktiv Qeydiyyatlar üzrə Rejimlər
   Current Enrollees: Cari Qeydiyyatdan Keçənlər
   Currently Enrolled Users: Hazırda Qeydiyyatdan Keçmiş İstifadəçilər
-  Dashboard ID: İdarə paneli ID-si
+  Dashboard ID: Dashboard ID
   Dashboard Status: Panelin Vəziyyəti
   Dashboard Title: İdarə panelinin başlığı
   Datasource ID: Məlumat mənbəyi ID-si
@@ -111,7 +104,7 @@ en:
   Datasource Type: Məlumat mənbəyi növü
   Date: Tarix
   Description: Təsvir
-  Display Name: Görünüş adı
+  Display Name: Ad göstərin
   Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Ən çox qeydiyyat olunan 10 kursu göstərir. Filtrdə fərqli kursları seçmək həmin kursları göstərəcək.
   Distribution of Course Grades: Kurs Qiymətlərinin Paylanması
   Distribution of Current Course Grade: Cari Kurs Qiymətinin Paylanması
@@ -120,11 +113,10 @@ en:
   Email: e-poçt
   Emission Day: Emissiya Günü
   Emission Hour: Emissiya Saatı
-  Emission Time: Yayımlanma Vaxtı
   Engagement: Öhdəçilik
   Enrolled At: Qeydiyyat Tarixi
   Enrollees by Enrollment Track: Qeydiyyat növünə görə qeydiyyatdan keçənlər
-  Enrollees per Enrollment Track: Qeydiyyat növü üzrə qeydiyyatdan keçənlər
+  Enrollees per Enrollment Track: Qeydiyyat növünə görə qeydiyyatdan keçənlər
   Enrollment: Qeydiyyat
   Enrollment Counts: Qeydiyyat Sayları
   Enrollment Date: Qeydiyyat tarixi
@@ -161,12 +153,11 @@ en:
   'In-Context Analytics: Problem': 'Kontekst Analitikası: Məsələ'
   'In-Context Analytics: Video': 'Kontekst Analitikası: Video'
   Incorrect Attempts: Səhv Cəhdlər
-  Incorrect Attempts By Learner: Öyrəncinin səhv cəhdləri
-  Incorrect Attempts by Selected Learner: Seçilmiş Təlimçinin Səhv Cəhdləri
+  Incorrect Attempts By Learner: Öyrənənin Səhv Cəhdləri
+  Incorrect Attempts by Selected Learner: Seçilmiş öyrənən tərəfindən səhv cəhdlər
   Individual Learner: Fərdi Öyrənən
   Initial Numeric Responses: İlkin Rəqəmsal Cavablar
   Initial Responses: İlkin Cavablar
-  Instance Health: Tədris Vəziyyəti
   Interaction Type: İnteraksiya Növü
   Last Course Published: Sonuncu Kurs Nəşr Edildi
   Last Login: Sonuncu giriş
@@ -174,7 +165,6 @@ en:
   Last Received Event: Son Alınan Hadisə
   Last Visit Date: Son Ziyarət Tarixi
   Last Visited: Son Ziyarət Edilən
-  Last course syncronized: Sonuncu kurs sinxronlaşdırıldı
   Learner Performance: Öyrənci Performansı
   Learner Performance Breakdown: Öyrənci Performansının Təhlili
   Learner Status: Öyrənci Statusu
@@ -196,7 +186,6 @@ en:
   Number of Learners who Attempted the Problem: Problemi həll etməyə cəhd edən öyrənənlərin sayı
   Number of Videos: Videoların sayı
   Number of Videos Watched: İzlənilən Videoların Sayı
-  Number of Views across Video Duration: Baxış Sayı Video Müddəti Boyunca
   Object ID: obyekt ID
   Object Id: obyekt ID
   Object Type: Obyekt Növü
@@ -208,8 +197,6 @@ en:
   Overview: İcmal
   Page Count: Səhifə Sayı
   Page Engagement Over Time: Səhifə ilə Məşğuliyyət Zamanla
-  Page Engagement per Section: Hər Bölmə üzrə Səhifə İştirakı
-  Page Engagement per Section/Subsection: Səhifə İştirakı Hissə/Alt Hissə üzrə
   Page Engagement per Subsection: Hər Alt Bölmə üzrə Səhifə İştirakı
   Pages: Səhifələr
   Partial Views: Qismən Baxışlar
@@ -221,9 +208,6 @@ en:
   Problem Attempts: Problemin Həlli Cəhdləri
   Problem Attempts and Results: Problemin Cəhdləri və Nəticələri
   Problem Engagement: Problemin Cəlb Edilməsi
-  Problem Engagement per Section: Məsələ üzrə bölmə üzrə iştirak
-  Problem Engagement per Section/Subsection: Bölmə/Alt bölmə üzrə Problemlə Məşğuliyyət
-  Problem Engagement per Subsection: Məsələ ilə Məşğuliyyət Alt Bölmə üzrə
   Problem Id: Problem İd
   Problem Link: Problemin linki
   Problem Location and Name: Problemin Yeri və Adı
@@ -231,7 +215,6 @@ en:
   Problem Name Location: Problemin adı və yeri
   Problem Name With Location: Problemin adı və yeri
   Problem Number: Problem Nömrəsi
-  Problem Part: Məsələ Hissəsi
   Problem Results: Problemin Nəticələri
   Problem Results Table: Problemin Nəticələri Cədvəli
   Problems: tapşırıqlar
@@ -242,17 +225,13 @@ en:
   Repeat Views: Təkrar Baxışlar
   Respondents: Cavab verənlər
   Response: Cavab
-  Response Count: Cavab Sayı
   Response Numeric: Cavab Rəqəmsal
   Responses: Cavablar
   Result: Nəticə
   Result Rows: Nəticə Sətirləri
-  Rewatched Time: İzlənilən Vaxt
   Rownum: Sıra nömrəsi
   Run Metrics: İcra Metrikləri
-  Run Name: Yarış Adı
-  Scaled Score: Miqyaslı bal
-  Score Range: Bal aralığı
+  Run Name: İcra Adı
   Section Location and Name: Bölmənin Yeri və Adı
   Section Name: Bölüm adı
   Section Subsection Video Engagement: Bölmə Altbölmə Video İştirakı
@@ -268,21 +247,20 @@ en:
   Selected Learner % Correct: Seçilmiş Təlimçi % Düzgün
   Selected Learner % Incorrect: Seçilmiş Təlimçi % Səhv
   Selected Learner Percent Correct: Seçilmiş Təlimçinin Düzgün Cavab Faizi
-  Selected Learner Percent Incorrect: Seçilmiş Təlimçi Faiz Səhv
+  Selected Learner Percent Incorrect: Seçilmiş Təlimçinin Səhv Cavab Faizi
   Selected Learners % Correct: Seçilmiş Təlimçilərin % Düzgünlük
   Selected Learners % Incorrect: Seçilmiş Təlimçilər % Səhv
-  Self Paced: Özü irəliləyən
+  Self Paced: Sərbəst
   Slice ID: Dilimiş ID
   Slice Name: Dilimin Adı
   Slowest ClickHouse Queries: Ən Yavaş ClickHouse Sorğuları
   Start Position: Başlanğıc Mövqeyi
   Started At: Başlama vaxtı
-  Subsection Location and Name: Alt bölmənin yeri və adı
+  Subsection Location and Name: Bölmənin Alt Hissəsinin Yeri və Adı
   Subsection Name: Alt bölüm adı
   Subsection Number: Alt bölmə nömrəsi
   Subsection Summary: Bölmə Xülasəsi
-  Subsection With Name: Adı olan Alt Bölmə
-  Subsection with name: Adalt bölmə adı ilə
+  Subsection With Name: Adı olan alt bölmə
   Success: Uğurlu
   Superset: Superset
   Superset Active Users: Superset Aktiv İstifadəçilər
@@ -311,14 +289,10 @@ en:
   User Registration Date: İstifadəçi Qeydiyyat Tarixi
   Username: İstifadəçi adı
   Value: Dəyər
-  Verb: Fəaliyyət
   Verb ID: Fəal ID-si
   Video Count: Video Sayı
   Video Duration: Video müddəti
   Video Engagement: Video ilə məşğuliyyət
-  Video Engagement per Section: Hissə üzrə video ilə məşğuliyyət
-  Video Engagement per Section/Subsection: Hissə/Alt hissə üzrə Video İştirakı
-  Video Engagement per Subsection: Video ilə Məşğulluq Alt Bölmə üzrə
   Video Event: Video Tədbiri
   Video ID: Video ID
   Video Id: Video ID
@@ -333,13 +307,11 @@ en:
   Videos: Videolar
   Viewed All Pages: Bütün Səhifələrə Baxıldı
   Viewed All Videos: Bütün Videolara Baxıldı
-  Viewed At Least One Page: Ən azı bir səhifəyə baxılıb
-  Viewed At Least One Video: Ən azı bir videoya baxılıb
   Visited On: Ziyarət tarixi
   Visualization Bucket: Vizualizasiya Vedrəsi
   Watched Entire Video: Bütün Videoya Baxıldı
   Watched Segment Count: İzlənmiş Seqmentlərin Sayı
-  Watched Time: İzlənilən Vaxt
+  Watched Time: İzləmə Vaxtı
   audit: Audit
   failed: uğursuz oldu
   graded: qiymətləndirildi
@@ -349,7 +321,7 @@ en:
   registered: qeydiyyatdan keçmiş
   section_subsection_name: bölmə_altbölmə_adı
   section_subsection_page_engagement: bölmə_altbölmə_səhifə_əlaqəsi
-  section_subsection_problem_engagement: bölmə_altbölmə_məsələ_məşğulluq
+  section_subsection_problem_engagement: bölmə_altbölmə_problem_məşğulluq
   sort: sıralamaq
   success: uğur
   ungraded: Qiymətləndirilməyən

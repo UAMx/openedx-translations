@@ -6,15 +6,16 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Sulaiman Muthanna, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/301281/ar/)\n"
+"POT-Creation-Date: 2025-04-25 00:35+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
+"Last-Translator: Sulaiman Muthanna, 2025\n"
+"Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: assessment/api/student_training.py:179
 msgid "Could not parse serialized rubric"
-msgstr "تعذّر تحليل معيار التقييم التسلسلي"
+msgstr "تَعذَّر تحليل سلّم التقييم المتسلسل"
 
 #: assessment/api/student_training.py:191
 msgid ""
@@ -37,7 +38,7 @@ msgstr ""
 #: assessment/api/student_training.py:203
 #, python-brace-format
 msgid "Example {example_number} has a validation error: {error}"
-msgstr "نتج عن المثال {example_number} خطأ في التحقق: {error}"
+msgstr "نأسف لحدوث خطأ في عملية التحقق في المثال {example_number}: {error}"
 
 #: assessment/api/student_training.py:217
 #, python-brace-format
@@ -45,18 +46,18 @@ msgid ""
 "Example {example_number} has an invalid option for \"{criterion_name}\": "
 "\"{option_name}\""
 msgstr ""
-"يوجد في المثال {example_number} خِيار غير صحيح لـ\"{criterion_name}\": "
-"\"{option_name}\""
+"يوجد في المثال {example_number} خيار غير صحيح بالنسبة لـ "
+"\"{criterion_name}\": \"{option_name}\""
 
 #: assessment/api/student_training.py:227
 #, python-brace-format
 msgid "Example {example_number} has an extra option for \"{criterion_name}\""
-msgstr "يوجد في المثال {example_number} خِيار إضافي لـ\"{criterion_name}\""
+msgstr "يوجد في المثال {example_number} خيار إضافي لـ \"{criterion_name}\""
 
 #: assessment/api/student_training.py:240
 #, python-brace-format
 msgid "Example {example_number} is missing an option for \"{criterion_name}\""
-msgstr "يفتقد هذا المثال {example_number} خِياراً لـ \"{criterion_name}\""
+msgstr "ينقُصُ هذا المثال {example_number} خيارٌ لـ \"{criterion_name}\""
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
@@ -64,7 +65,7 @@ msgstr "زميل"
 
 #: assessment/score_type_constants.py:22
 msgid "Self"
-msgstr "ذاتياً"
+msgstr "مُقيَّم ذاتيًّا"
 
 #: assessment/score_type_constants.py:23
 msgid "Staff"
@@ -72,17 +73,17 @@ msgstr "الطاقم"
 
 #: assessment/score_type_constants.py:25
 msgid "Unknown"
-msgstr "مجهول"
+msgstr "غير معروف"
 
 #: data.py:584
 #, python-brace-format
 msgid "Criterion {number}: {label}"
-msgstr "المقياس {number}: {label}"
+msgstr "المعيار {number}: {label}"
 
 #: data.py:586
 #, python-brace-format
 msgid "Points {number}"
-msgstr "{number} درجات"
+msgstr "النقاط {number}"
 
 #: data.py:587
 #, python-brace-format
@@ -174,11 +175,11 @@ msgstr "لا شيء"
 
 #: templates/legacy/edit/oa_edit.html:28
 msgid "Save"
-msgstr "احفظ"
+msgstr "حفظ"
 
 #: templates/legacy/edit/oa_edit.html:32
 msgid "Cancel"
-msgstr "ألغِ"
+msgstr "إلغاء"
 
 #: templates/legacy/edit/oa_edit_assessment_steps.html:6
 msgid ""
@@ -187,9 +188,9 @@ msgid ""
 " can be enabled, disable, and ordered for a flexible set of pedagogical "
 "needs."
 msgstr ""
-"تُتيح لك تقييم الإجابات المفتوحة تكوين خطوة واحدة أو خطوات متعددة في تسلسل "
-"تقييم الإجابات المفتوحة المعتمدة على معيار تقييم. يمكن تفعيل الخطوات المتاحة"
-" أدناه وتعطيلها وترتيبها لبناء مجموعة مَرِنة من الاحتياجات التعليمية."
+"تتيح لك تقويمات الإجابة المفتوحة تكوين خطوة واحدة أو خطوات متعددة في تسلسل "
+"تقويم إجابة مفتوحة يرتكز التقدير. يمكن تمكين الخطوات المتوفرة أدناه وتعطيلها"
+" وترتيبها لبناء مجموعة مرنة من الاحتياجات التعليمية."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:5
 msgid "Display Name "
@@ -222,13 +223,13 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:38
 msgid "File Uploads Response"
-msgstr "الإجابة بإرسال ملفات"
+msgstr "رد تحميلات الملفات"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:46
 msgid ""
 "Specify whether learners are able to upload files as a part of their "
 "response."
-msgstr "حدِّد ما إذا كان بإمكان المتعلمين إرسال ملفات كجزء من إجاباتهم."
+msgstr "حدد ما إذا كان بإمكان المتعلمين تحميل الملفات كجزء من الإجابة."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:50
 msgid "Allow Multiple Files"
@@ -258,13 +259,13 @@ msgid ""
 "if File Uploads Response is set to None. This is automatically set to True "
 "for Team Assignments. "
 msgstr ""
-"حدِّد ما إذا كان بإمكان المتعلمين إرسال أكثر من ملف واحد. هذا الخِيار غير ذي"
-" أثر إذا ما عُيِّن خِيار \"الإجابة بإرسال ملفات\" إلى \"لا شيء\". يُعيَّن "
-"ذلك تلقائياً إلى \"نعم\" لمهام الفريق."
+"حدد ما إذا كان بإمكان المتعلمين تحميل أكثر من ملف واحد. لا يكون لهذا تأثير "
+"إذا تم تعيين استجابة تحميل الملفات إلى لاشئ. يتم تعيين ذلك تلقائيًا إلى صحيح"
+" لمهام الفريق."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:58
 msgid "File Upload Types"
-msgstr "أنواع الملفات المسموح بإرسالها"
+msgstr "أنواع الملفات المحمّلة"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:60
 msgid "PDF or Image Files"
@@ -276,7 +277,7 @@ msgstr "ملفات صور"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:62
 msgid "Custom File Types"
-msgstr "أنواع ملفات مخصصة"
+msgstr "أنواع ملفات مخصّصة"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:66
 msgid ""
@@ -292,16 +293,16 @@ msgid ""
 "Enter the file extensions, separated by commas, that you want learners to be"
 " able to upload. For example: pdf,doc,docx."
 msgstr ""
-"أدخِل صِيَغ الملفات التي يُسمح للمتعلمين بإرسالها، مفصولة بفواصل. مثلاً: "
-"pdf,doc,docx"
+"يُرجى إدخال امتداد اسماء الملفات التي يُسمح للمتعلّمين بتحميلها، مفصولة "
+"بفواصل. مثلًا: pdf,doc,docx"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:84
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
 msgstr ""
-"لإضافة المزيد من صِيَغ الملفات، اختَر \"أنواع ملفات مخصصة\" وأدخِل القائمة "
-"الكاملة لصِيَغ الملفات المقبولة لتضمينها."
+"لإضافة المزيد من امتدادات الملفات، اختر أنواع ملفات مخصصة وأدخل القائمة "
+"الكاملة لامتدادات الملفات المقبولة التي سيتم تضمينها."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:91
 msgid "Allow LaTeX Responses"
@@ -334,7 +335,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:122
 msgid "When Teams Enabled is set to true, Top Responses will be disabled."
-msgstr "عندما يُفعَّل خِيار \"الفِرق مفعّلة\"، سيُعطَّل خِيار \"أفضل الإجابات\"."
+msgstr "عندما يتم تعيين الفرق الممكّنة إلى صحيح، سيتم تعطيل أهم الإجابات."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:129
 msgid "Teams Enabled"
@@ -350,7 +351,7 @@ msgstr "حدد ضبط-الفريق"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:155
 msgid "Show Rubric During Response"
-msgstr "أظهِر معايير التقييم أثناء الإجابة"
+msgstr "إظهار القواعد أثناء الاستجابة"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:162
 msgid ""
@@ -441,7 +442,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:3
 msgid "Open Response Assessment"
-msgstr "تقييم الإجابات المفتوحة"
+msgstr "تقييم الردود المفتوحة"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:8
 #: templates/legacy/edit/oa_edit_prompt.html:7
@@ -450,7 +451,7 @@ msgstr "علامة الاستعداد"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:15
 msgid "Rubric"
-msgstr "معيار التقييم"
+msgstr "سلّم التقييم"
 
 #: templates/legacy/edit/oa_edit_header_and_validation.html:22
 msgid "Schedule"
@@ -474,7 +475,7 @@ msgstr "اسم الخيار"
 
 #: templates/legacy/edit/oa_edit_option.html:29
 msgid "Option Points"
-msgstr "درجات الخِيار"
+msgstr "نقاط الخيار"
 
 #: templates/legacy/edit/oa_edit_option.html:42
 msgid "Option Explanation"
@@ -490,9 +491,9 @@ msgid ""
 "also receive feedback from others in their final grade. Often, though not "
 "always, this step is preceded by Self Assessment or Learner Training steps."
 msgstr ""
-"يُتيح تقييم الزملاء للمتعلمين تقديم ملاحظاتهم إلى المتعلمين الآخَرين والحصول"
-" عليها أيضاً من زملائهم عند التقييم النهائي. غالباً ما تسبق هذه الخطوة خطوات"
-" التقييم الذاتي أو تدريب المتعلمين، ولكن ليس دائما."
+"يسمح تقييم الزملاء للمتعلمين بتقديم التعليقات والملاحظات للطلاب الآخرين "
+"والحصول عليها أيضًا عند التقييم النهائي. غالبًا ما تسبق هذه الخطوة بخطوات "
+"التقييم الذاتي أو تدريب المتعلمين إن لم يكن دائمًا."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:18
 msgid ""
@@ -548,9 +549,8 @@ msgid ""
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
 msgstr ""
-"فُعِّلت هذه الميزة من خلال إعدادات المساق. يمكن العثور على هذا الإعداد ضِمن "
-"بطاقة \"إعدادات تقييم الإجابات المفتوحة\" في صفحة استوديو \"الصفحات "
-"والموارد\"."
+"يتم تمكين هذه الميزة من خلال إعداد مستوى الدورة التدريبية. يمكن العثور عليه "
+"ضمن بطاقة إعدادات تقييم الاستجابة المفتوحة في صفحة استوديو الصفحات والموارد."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
@@ -642,8 +642,8 @@ msgid ""
 "Encourage learners to provide feedback on the response they have graded. You"
 " can replace the sample text with your own."
 msgstr ""
-"شجِّع المتعلمين على تقديم آرائهم وملاحظاتهم على الإجابات التي صحّحوها. "
-"ويمكنك استبدال المثال النصّي بنصّك الخاص بك."
+"شجّع المتعلّمين على تقديم آرائهم وملاحظاتهم حول الردود التي صحّحوها. ويمكنك "
+"استبدال نموذج النصّ بنصّك. "
 
 #: templates/legacy/edit/oa_edit_rubric.html:49
 msgid "Default Feedback Text"
@@ -700,7 +700,7 @@ msgstr "تاريخ استحقاق الردود"
 
 #: templates/legacy/edit/oa_edit_schedule.html:78
 msgid "Response Due Time"
-msgstr "وقت استحقاق الإجابات"
+msgstr "وقت استحقاق الردود"
 
 #: templates/legacy/edit/oa_edit_schedule.html:87
 msgid "The date and time when learners can no longer submit responses."
@@ -761,22 +761,21 @@ msgid ""
 " to advance and are provided feedback when their score doesn't match the "
 "sample response."
 msgstr ""
-"الإعداد: لكي تُعَد هذه الخطوة بالكامل، ينبغي توفير إجابة نموذجية مقيّمة "
-"واحدة أو أكثر. وينبغي على المتعلمين بعد ذلك مطابقة تقييم المعلم ليتقدّموا "
-"إلى الخطوة التالية، ويقدّموا ملاحظاتهم عندما لا تتطابق نتيجتهم مع الإجابة "
-"النموذجية. "
+"إعداد التشكيل: لكي يتم إعداد هذه الخطوة بشكل كامل، يجب توفير نموذج واحد أو "
+"أكثر من الردود المقدرة. ويجب على المتعلمين بعد ذلك مطابقة مجموع نقاط المعلم "
+"هذا، ويتم تقديم ملاحظات عندما لا تتطابق نتيجتهم مع نموذج الإجابة."
 
 #: templates/legacy/edit/oa_edit_student_training.html:22
 msgid "View / Add Sample Responses"
-msgstr "اعرض / أضِف إجابة نموذجية"
+msgstr "عرض/ إضافة عينة الردود"
 
 #: templates/legacy/edit/oa_edit_student_training.html:32
 msgid "Add Sample Response"
-msgstr "أضِف إجابة نموذجية"
+msgstr "أضف ردًّا نموذجيًّا "
 
 #: templates/legacy/edit/oa_rubric_reuse.html:4
 msgid "Clone Rubric"
-msgstr "استنسِخ معيار تقييم"
+msgstr "استنساخ الموضوع"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:7
 msgid ""
@@ -792,7 +791,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:9
 msgid "Block ID For this ORA:"
-msgstr "معرّف الكتلة لتقييم الإجابات المفتوحة هذه:"
+msgstr "مُعَرَّف الكُتلة لتقييمات الإجابة المفتوحة هذه:"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:19
 msgid "Block ID"
@@ -800,7 +799,8 @@ msgstr "معرف الكتلة"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr "لم يُعثر على تقييمات أخرى للإجابات المفتوحة في هذا المساق"
+msgstr ""
+"لم يتم العثور على تقييمات الاستجابة المفتوحة الأخرى في الدورة التدريبية"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -808,7 +808,7 @@ msgstr "استنساخ"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:37
 msgid "Rubric Successfully Cloned from Block ID: "
-msgstr "نجح استنساخ معيار التقييم من معرّف الكتلة:"
+msgstr "نَجَح استِنساخ مِعيار التقييم مِن مُعَرَّف الكُتلة:"
 
 #: templates/legacy/edit/oa_training_example.html:7
 msgid "Scored Response"
@@ -830,7 +830,7 @@ msgstr "غير مختار"
 #: templates/legacy/oa_rubric.html:43
 #: templates/legacy/student_training/student_training.html:128
 msgid "points"
-msgstr "الدرجات"
+msgstr "النقاط"
 
 #: templates/legacy/grade/oa_assessment_feedback.html:8
 #, python-format
@@ -854,33 +854,33 @@ msgid_plural ""
 "                  "
 msgstr[0] ""
 "\n"
-"                      %(assessment_title)s - صفر\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 msgstr[1] ""
 "\n"
-"                      %(assessment_title)s - درجة واحدة\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 msgstr[2] ""
 "\n"
-"                      %(assessment_title)s - درجتان\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 msgstr[3] ""
 "\n"
-"                      %(assessment_title)s - %(points)s درجات\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 msgstr[4] ""
 "\n"
-"                      %(assessment_title)s - %(points)s درجة\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 msgstr[5] ""
 "\n"
-"                      %(assessment_title)s - %(points)s درجة\n"
+"%(assessment_title)s - %(points)s نقطة\n"
 "                  "
 
 #: templates/legacy/grade/oa_assessment_title.html:24
 #, python-format
 msgid "More information about %(name)s"
-msgstr "المزيد من المعلومات عن %(name)s"
+msgstr "المزيد من المعلومات حول %(name)s"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:14
 #: templates/legacy/grade/oa_grade_complete.html:15
@@ -899,7 +899,7 @@ msgid ""
 "                                    "
 msgstr ""
 "\n"
-"                                        %(points_earned)s من %(points_possible)s\n"
+"                                        %(points_earned)s من أصل %(points_possible)s\n"
 "                                    "
 
 #: templates/legacy/grade/oa_grade_cancelled.html:38
@@ -914,8 +914,7 @@ msgid ""
 "                                        "
 msgstr ""
 "\n"
-"                                            %(points_earned)s من %(points_possible)s\n"
-"                                        "
+" %(points_earned)s من %(points_possible)s"
 
 #: templates/legacy/grade/oa_grade_complete.html:38
 #: templates/legacy/response/oa_response.html:29
@@ -959,7 +958,7 @@ msgstr "الدرجة الكلّية"
 #: templates/legacy/grade/oa_grade_complete.html:70
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:28
 msgid "Points"
-msgstr "الدرجات"
+msgstr "النقاط"
 
 #: templates/legacy/grade/oa_grade_complete.html:96
 msgid "Additional comments on your response"
@@ -1023,7 +1022,7 @@ msgstr "أرى أنّ الآراء والملاحظات التي حصلت علي
 
 #: templates/legacy/grade/oa_grade_complete.html:200
 msgid "We could not submit your feedback"
-msgstr "تعذّر إرسال ملاحظاتك"
+msgstr "عذرًا، لم نستطع تقديم آرائك وملاحظاتك."
 
 #: templates/legacy/grade/oa_grade_complete.html:206
 msgid "Submit feedback on peer assessments"
@@ -1035,7 +1034,7 @@ msgstr "غير مكتمِل"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:33
 msgid "You have not completed all the steps of this problem."
-msgstr "لم تُكمل جميع خطوات هذه المسألة."
+msgstr "لم تَستكمِل جميع خطوات هذه المسألة."
 
 #: templates/legacy/grade/oa_grade_not_started.html:16
 msgid "Not Started"
@@ -1043,7 +1042,7 @@ msgstr "لم تبدأ بعد"
 
 #: templates/legacy/grade/oa_grade_not_started.html:27
 msgid "You have not started this problem yet."
-msgstr "لم تبدأ هذه المسألة بعد."
+msgstr "لم تبدأ العمل على هذه المسألة بعد."
 
 #: templates/legacy/grade/oa_grade_waiting.html:16
 msgid "Waiting for Assessments"
@@ -1072,7 +1071,7 @@ msgstr "قيّم الردود المتوفرة"
 msgid ""
 "Grade Available Responses is unavailable. This item is not configured for "
 "Staff Assessment."
-msgstr "تقييم الإجابات المتاحة غير متاح. لم يُضبط هذا العنصر للتقييم الذاتي."
+msgstr "إجابات الردود المقيّمة غير متاحة، هذا العنصر غير مهيأ لتقييم الطاقم."
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
@@ -1080,19 +1079,19 @@ msgstr "يرجى الانتظار"
 
 #: templates/legacy/instructor_dashboard/oa_waiting_step_details.html:15
 msgid "Waiting Step Details"
-msgstr "تفاصيل خطوة الانتظار"
+msgstr "تفاصيل خُطوة الانتِظار"
 
 #: templates/legacy/instructor_dashboard/oa_waiting_step_details.html:24
 msgid ""
 "Waiting Step details view is unavailable. This item is not configured for "
 "peer assessments."
 msgstr ""
-"عرض تفاصيل خطوة الانتظار غير متاح. لم يُضبَط هذا العنصر لتقييمات الزملاء."
+"عرض تفاصيل خطوة الانتظار غير متاح. لم يتم إعداد هذا العنصر لتقييم الأقران."
 
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:20
 #, python-format
 msgid "%(num_points)s points"
-msgstr "%(num_points)s درجة"
+msgstr "%(num_points)s نقطة"
 
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:24
 #: templates/legacy/peer/oa_peer_assessment.html:84
@@ -1114,23 +1113,24 @@ msgid ""
 " zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
 msgstr ""
-"أُلغِيت إجابة فريقك. سيحصل فريقك على درجة صفر ما لم يُعِد طاقم المساق تقييمك"
-" للسماح للفريق بتقديم إجابة أخرى."
+"حُذِفَ تقديم إجابة الفريق. وسيحصل فريقك على درجة صفر ما لم يُعِد طاقم المساق"
+" تقييمك للسماح للفريق بتقديم إجابة أخرى. "
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
 msgstr ""
-"أُلغِيت إجابتك. ستحصل على درجة صفر ما لم يُعِد طاقم المساق تقييمك للسماح لك "
-"بتقديم إجابة أخرى. "
+"تم إلغاء تقديم إجابتك. وستحصل على درجة صفر ما لم يُعِد طاقم المساق تقييمك "
+"للسماح للفريق بتقديم إجابة أخرى. "
 
 #: templates/legacy/message/oa_message_closed.html:8
 msgid ""
 "This task is not yet available. Check back to complete the assignment once "
 "this section has opened."
 msgstr ""
-"هذه المهمة ليست متاحة بعد. عُد لإتمام هذا الواجب عندما يُفتح هذا القِسم."
+"عذرًا، هذه المهمة ليست متاحة بعد. يُرجى الرجوع لاستكمال الواجب عند افتتاح "
+"هذا القسم."
 
 #: templates/legacy/message/oa_message_closed.html:10
 msgid ""
@@ -1159,21 +1159,22 @@ msgid ""
 "This assignment is in progress. Learner training will close soon. Complete "
 "the learner training step to move on."
 msgstr ""
-"هذا الواجب لا يزال جارياً. سيُغلق تدريب المتعلمين قريباً. أكمِل خطوة تدريب "
-"المتعلمين للمتابعة."
+"يتم حالياَ فحص الواجب. سيُغلق تدريب المتعلّمين قريبًا. أكمل عملك على خطوة "
+"تدريب المتعلّمين للمتابعة."
 
 #: templates/legacy/message/oa_message_incomplete.html:11
 msgid ""
 "This assignment is in progress. Complete the learner training step to move "
 "on."
-msgstr "هذا الواجب لا يزال جارياً. أكمِل خطوة تدريب المتعلمين للمتابعة."
+msgstr "يتم حالياً فحص الواجب. أكمل عملك على خطوة تدريب المتعلّمين للمتابعة."
 
 #: templates/legacy/message/oa_message_incomplete.html:15
 #: templates/legacy/message/oa_message_incomplete.html:33
 msgid ""
 "This assignment is in progress. Check back later when the assessment period "
 "has started."
-msgstr "يجري حالياً فحص الواجب. عُد لاحقاً عندما تبدأ مهلة التقييم."
+msgstr ""
+"يتم حالياً فحص الواجب. الرجاء مراجعة القسم في وقت لاحق بعد بدء فترة الواجب."
 
 #: templates/legacy/message/oa_message_incomplete.html:20
 #, python-format
@@ -1183,7 +1184,9 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    %(start_strong)sهذا الواجب لا يزال جارياً. سيُغلق التقييم الذاتي قريباً.%(end_strong)s ينبغي عليك إتمام خطوة %(start_link)sالتقييم الذاتي%(end_link)s.\n"
+"\n"
+"%(start_strong)sجار فحص الواجب. ستُغلق خطوة التقييم الذاتي قريبًا.%(end_strong)s ما زلت بحاجة لإكمال خطوة %(start_link)s التقييم الذاتي%(end_link)s.\n"
+"\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:24
@@ -1194,7 +1197,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    هذا الواجب ما زال جارياً. ينبغي عليك إتمام خطوة %(start_link)sالتقييم الذاتي%(end_link)s.\n"
+"جار فحص الواجب. مازلت بحاجة لإكمال خطوة %(start_link)sالتقييم الذاتي%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:38
@@ -1205,7 +1208,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    هذا الواجب ما زال جارياً.%(start_strong)s سيُغلق تقييم الزملاء قريباً.%(end_strong)s قُيِّمت كافّة إجابات الزملاء التي قُدِّمت. عُد لاحقاً لترى إذا ما قدّم مزيداً من الزملاء إجاباتهم. ما زلت بحاجة إلى إتمام خطوة %(start_link)sتقييم الزملاء%(end_link)s.\n"
+" %(start_strong)sجار فحص الواجب. ستُغلق خطوة تقييم الزملاء قريبًا.%(end_strong)s All لقد قُيّمت جميع ردود الزملاء المُقدّمة. يُرجى العودة في وقتٍ لاحق للتحرّى فيما إذا قدّم مزيدٌ من المتعلّمين ردودًا جديدة. مازلت بحاجة لإكمال خطوة %(start_link)s تقييم الزملاء%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:42
@@ -1216,7 +1219,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    هذا الواجب ما زال جارياً. قُيِّمت كافّة إجابات الزملاء التي قُدِّمت. عُد لاحقاً لترى إذا ما قدّم مزيداً من الزملاء إجاباتهم. ما زلت بحاجة إلى إتمام خطوة %(start_link)sتقييم الزملاء%(end_link)s.\n"
+"جار فحص الواجب. لقد قُيّمت جميع ردود الزملاء المُقدّمة. يُرجى مراجعة هذا القسم في وقت لاحق للتحقّق فيما إذا قدّم مزيدٌ من المتعلّمين ردودًا جديدة. مازلت بحاجة لإكمال خطوة %(start_link)sتقييم الزملاء%(end_link)s step.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:46
@@ -1255,10 +1258,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            هذه مهمة فريق لفِرَق \"%(teamset_name)s\".\n"
-"            أنت لست في فريق من فِرَق \"%(teamset_name)s\".\n"
-"            يجب أن تكون في فريق من فِرَق \"%(teamset_name)s\" لتتمكن من الوصول إلى مهمة الفريق هذه.\n"
-"            "
+"هذا تعيين فريق لمجموعة الفريق\"%(teamset_name)s\" \n"
+"أنت لست في الفريق حاليًا \"%(teamset_name)s\" \n"
+"يجب أن تكون ضمن فريق \"%(teamset_name)s\" للوصول إلى تعيين الفريق هذا."
 
 #: templates/legacy/message/oa_message_open.html:7
 #, python-format
@@ -1331,7 +1333,7 @@ msgstr "الملفات التي تم رفعها بواسطة زملائك في �
 #: templates/legacy/oa_team_uploaded_files.html:28
 #: templates/legacy/oa_uploaded_file.html:34
 msgid "View the files associated with this submission:"
-msgstr "اعرض الملفات المرتبطة بهذه الإجابة:"
+msgstr "عرض الملفات المرتبطة بهذه الإجابة:"
 
 #: templates/legacy/oa_team_uploaded_files.html:32
 msgid "Uploaded by"
@@ -1403,7 +1405,7 @@ msgstr "قراءة وتقييم الرد التالي لأحد زملائك."
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:38
 #: templates/legacy/staff_area/oa_student_info.html:63
 msgid "Associated Files"
-msgstr "الملفات ذات الصِلة"
+msgstr "ملفات ذات صلة"
 
 #: templates/legacy/peer/oa_peer_assessment.html:101
 #: templates/legacy/peer/oa_peer_turbo_mode.html:70
@@ -1411,14 +1413,14 @@ msgstr "الملفات ذات الصِلة"
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:57
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:50
 msgid "We could not submit your assessment"
-msgstr "تعذّر إرسال إجابتك"
+msgstr "عذرًا، لم نتمكّن من تقديم تقييمك."
 
 #: templates/legacy/peer/oa_peer_cancelled.html:19
 #: templates/legacy/response/oa_response_cancelled.html:21
 #: templates/legacy/self/oa_self_cancelled.html:21
 #: templates/legacy/student_training/student_training_cancelled.html:18
 msgid "Cancelled"
-msgstr "أُلغِي"
+msgstr "جرى الإلغاء"
 
 #: templates/legacy/peer/oa_peer_closed.html:20
 #, python-format
@@ -1436,8 +1438,8 @@ msgid ""
 "longer complete peer assessments or continue with this assignment, and you "
 "will receive a grade of Incomplete."
 msgstr ""
-"انقضت مهلة هذه الخطوة وأُغلِقت. لم يَعُد بإمكانك إتمام تقييم الزملاء أو "
-"متابعة العمل على هذه المهمة، وستحصل على درجة \"غير مكتمل\""
+"لقد مر تاريخ استحقاق هذه الخطوة. تم إغلاق هذه الخطوة. لم يعد بإمكانك استكمال"
+" واجبات الزملاء أو متابعة العمل على هذا الواجب، وستحصل على درجة غير مكتملة."
 
 #: templates/legacy/peer/oa_peer_complete.html:13
 msgid "Completed"
@@ -1451,13 +1453,13 @@ msgid ""
 "this assignment. You may assess additional peer responses if you want to. "
 "Completing additional assessments will not affect your final grade."
 msgstr ""
-"لقد أتممت كل تقييمات الزملاء المطلوبة لهذه المهمة. يمكنك الآن تقييم المزيد "
-"من إجابات الزملاء إذا أحببت. لن يؤثّر إتمام التقييمات الإضافية على درجتك "
-"النهائية."
+"نهنّئك على استكمالك لجميع تقييمات الزملاء المطلوبة لهذا الواجب. يمكنك الآن "
+"تقييم المزيد من ردود الزملاء إذا أحببت. ولن يؤثّر استكمال التقييمات الإضافية"
+" على درجتك النهائية."
 
 #: templates/legacy/peer/oa_peer_complete.html:36
 msgid "We could not retrieve additional submissions for assessment"
-msgstr "يتعذّر جلب التسليمات الإضافية للواجب"
+msgstr "لم نتمكّن من استرجاع التقديمات الإضافيّة للتقييم"
 
 #: templates/legacy/peer/oa_peer_complete.html:43
 msgid "Continue Assessing Peers"
@@ -1479,8 +1481,8 @@ msgid ""
 "All submitted peer responses have been assessed. Check back later to see if "
 "more learners have submitted responses."
 msgstr ""
-"قُيِّمت كافّة إجابات الزملاء التي قُدِّمت. عُد لاحقاً لترى إذا ما قدّم "
-"مزيداً من الزملاء إجاباتهم."
+"تم تقييم جميع ردود الزملاء التي جرى تقديمها. يُرجى مراجعة هذا القسم في وقت "
+"لاحق للتحقّق إذا ما قدّم المزيد من المتعلّمين ردودًا جديدة."
 
 #: templates/legacy/peer/oa_peer_unavailable.html:16
 #: templates/legacy/response/oa_response_unavailable.html:17
@@ -1508,9 +1510,9 @@ msgid ""
 "you've completed all the steps for this problem and your peers have assessed"
 " your response."
 msgstr ""
-"قُيِّمت كافّة إجابات الزملاء المتاحة. عُد لاحقاً لترى إذا ما قدّم مزيداً من "
-"الزملاء إجاباتهم. ستحصل على درجتك بعد إتمامك جميع خطوات هذه المسألة وبعد "
-"تقييم زملاءك لإجابتك."
+"تم تقييم جميع ردود الزملاء المتاحة . يُرجى إعادة التحقّق لاحقًا لرؤية ما إذا"
+" قام المزيد من الطلّاب بتقديم الردود. سوف تحصل على درجتك بعد استكمالك جميع "
+"الخطوات الخاصّة بهذه المسألة وبعد تقييم زملاءك لردّك. "
 
 #: templates/legacy/response/oa_response.html:27
 msgid "Your Team's Response"
@@ -1558,7 +1560,7 @@ msgid ""
 "                      "
 msgstr ""
 "\n"
-"                        سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتة فريقك في أيّ وقت قبل تاريخ الاستحقاق.\n"
+"                        سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال استجابة فريقك في أي وقت قبل تاريخ النهائى\n"
 "                      "
 
 #: templates/legacy/response/oa_response.html:81
@@ -1568,13 +1570,14 @@ msgid ""
 "                      "
 msgstr ""
 "\n"
-"                        سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتة فريقك في أيّ وقت.\n"
+"                        سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال استجابة فريقك في أي وقت.\n"
+" \n"
 "                      "
 
 #: templates/legacy/response/oa_response.html:86
 msgid ""
 "After you submit a response on behalf of your team, it cannot be edited."
-msgstr "بعد إرسال إجابة نيابة عن فريقك، لن يكون من الممكن تعديلها."
+msgstr "بعد إرسال رد بالنيابة عن فريقك ، لا يمكن تحريره."
 
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
@@ -1585,34 +1588,34 @@ msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the subsection due date "
 msgstr ""
-"سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتك في أيّ وقت قبل تاريخ "
-"استحقاق القِسم الفرعي"
+"سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال إجابتك في أي وقت قبل تاريخ الوقت"
+" النهائى القسم الفرعي"
 
 #: templates/legacy/response/oa_response.html:94
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
 msgstr ""
-"سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتك في أيّ وقت قبل انتهاء "
-"المساق"
+"سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال إجابتك في أي وقت قبل انتهاء "
+"الدورة"
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the due date "
 msgstr ""
-"سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتك في أيّ وقت قبل تاريخ "
-"الاستحقاق"
+"سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال إجابتك في أي وقت قبل الموعد "
+"المحدد"
 
 #: templates/legacy/response/oa_response.html:108
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time."
-msgstr "سيُحفظ عملك تلقائياً، ويمكنك العودة لإكمال إجابتك في أيّ وقت."
+msgstr "سيتم حفظ عملك تلقائيًا ويمكنك العودة لإكمال ردك في أي وقت."
 
 #: templates/legacy/response/oa_response.html:110
 msgid "After you submit your response, you cannot edit it"
-msgstr "لن تتمكن من تعديل إجابتك بعد إرسالها"
+msgstr "يُرجى ملاحظ أنّه لا يمكنك تعديل ردّك بعد أن تقدّمه."
 
 #: templates/legacy/response/oa_response.html:120
 msgid "What will this assignment be graded on?"
@@ -1640,10 +1643,9 @@ msgid ""
 "                                          "
 msgstr ""
 "\n"
-"                                              لقد أرسل %(team_members_with_external_submissions)s\n"
-"                                              إجابة على هذه المسألة مع فريق آخَر،\n"
-"                                              ولن يُعتمد كمشارك في ما سيسلمه فريقك أو العلامة التي سيحصل عليها فريقك لهذه المسألة.\n"
-"                                          "
+"%(team_members_with_external_submissions)s\n"
+"قام بالفعل بتقديم رد على هذا الواجب مع فريق آخر،\n"
+"ولن يكون جزءاً من عملية تقييم رد الفريق أو درجته."
 
 #: templates/legacy/response/oa_response.html:171
 msgid "Team Response "
@@ -1674,12 +1676,10 @@ msgid ""
 "                                          "
 msgstr ""
 "\n"
-"                                              ينبغي على الفِرَق تعيين عضو واحد في الفريق لإرسال إجابة نيابة عن\n"
-"                                              الفريق بأكمله. ويمكن لجميع أعضاء الفريق استخدام هذه المساحة للعمل على مُسوَّدات الإجابات.\n"
-"                                              إلا أنّه لا يمكنك رؤية مُسوَّدات زملاءك الموجودة هنا. لذلك\n"
-"                                              يُرجى التنسيق معهم للخروج بقرار فيما يخص الإجابة النهائية التي يجب على العضو\n"
-"                                              المُمثِّل للفريق تقديمها.\n"
-"                                          "
+"ينبغي على الفرق تعيين عضو واحد في الفريق لإرسال رد بالنيابة عن\n"
+"كامل الفريق. ويمكن لجميع أعضاء الفريق استخدام هذه المساحة للعمل على مسودة الإجابات.\n"
+"إلا أنه لا يمكنك رؤية مسودات زملاءك الموجودة هنا. لذلك\n"
+"يرجى التنسيق معهم للتقرير بخصوص الإجابة النهائية التي يجب على العضو الممثل الفريق تقديمها."
 
 #: templates/legacy/response/oa_response.html:197
 msgid "Enter your response to the prompt above."
@@ -1704,7 +1704,7 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
-msgstr "لم نتمكن من حفظ التقدم الذي أحرزته."
+msgstr "عذرًا، لم نستطع حفظ التقدّم الذي أحرزته."
 
 #: templates/legacy/response/oa_response.html:232
 msgid "Status of Your Response"
@@ -1727,11 +1727,11 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:261
 msgid "We could not upload files"
-msgstr "تعذّر تحميل الملفات"
+msgstr "لم نتمكّن من تحميل الملفات."
 
 #: templates/legacy/response/oa_response.html:267
 msgid "We could not delete files"
-msgstr "تعذّر حذف الملفات"
+msgstr "لم نتمكّن من حذف الملفات."
 
 #: templates/legacy/response/oa_response.html:274
 msgid "Select one or more files to upload for this submission."
@@ -1745,65 +1745,65 @@ msgstr "اختر ملفًا لتحميله مع هذا التقديم"
 msgid "Supported file types: "
 msgstr "أنواع الملفات المدعومة:"
 
-#: templates/legacy/response/oa_response.html:286
+#: templates/legacy/response/oa_response.html:285
 msgid "Upload files"
 msgstr "تحميل الملفات"
 
-#: templates/legacy/response/oa_response.html:288
+#: templates/legacy/response/oa_response.html:287
 msgid "Upload file"
 msgstr "تحميل ملف"
 
-#: templates/legacy/response/oa_response.html:305
+#: templates/legacy/response/oa_response.html:304
 msgid "This is a team submission."
 msgstr "هذا تقديم فريق."
 
-#: templates/legacy/response/oa_response.html:307
+#: templates/legacy/response/oa_response.html:306
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
 msgstr ""
-"يجب على عضو واحد في الفريق تقديم إجابة مُرفِقاً بها الملفات التي اشترك "
-"بعملها الفريق وإجابة نصّية نيابة عن كل أعضاء الفريق."
+"يجب على عضو واحد في الفريق تقديم إجابة مرفقة بملفات الفريق وإجابة نصية نيابة"
+" عن كامل أعضاء الفريق."
 
-#: templates/legacy/response/oa_response.html:309
+#: templates/legacy/response/oa_response.html:308
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
 msgstr ""
-"يجب على عضو واحد في الفريق تقديم إجابة مُرفِقاً بها الملفات التي اشترك "
-"بعملها الفريق نيابة عن كل أعضاء الفريق."
+"يجب على عضو واحد في الفريق تقديم إجابة مرفقة بملفات الفريق وإجابة نصية نيابة"
+" عن كامل أعضاء الفريق."
 
-#: templates/legacy/response/oa_response.html:311
+#: templates/legacy/response/oa_response.html:310
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr ""
-"يجب على عضو واحد في الفريق تقديم إجابة نصّية نيابة عن كل أعضاء الفريق."
+"يجب على عضو واحد في الفريق تقديم إجابة نصية نيابة عن كامل أعضاء الفريق."
 
-#: templates/legacy/response/oa_response.html:313
+#: templates/legacy/response/oa_response.html:312
 msgid "One team member should submit on behalf of the entire team."
-msgstr "يجب على عضو واحد في الفريق تقديم إجابة نيابة عن كل أعضاء الفريق."
+msgstr "يجب على عضو واحد في الفريق تقديم إجابة نيابة عن كامل أعضاء الفريق."
 
-#: templates/legacy/response/oa_response.html:315
+#: templates/legacy/response/oa_response.html:314
 msgid ""
 "\n"
 "                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
 "                  "
 msgstr ""
 "\n"
-"                  تعرّف أكثر على واجبات الفريق هنا: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">رابط</a>)\n"
+"                  تعرف على المزيد حول واجبات الفريق هنا: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">رابط</a>)\n"
 "                  "
 
-#: templates/legacy/response/oa_response.html:323
+#: templates/legacy/response/oa_response.html:322
 msgid "We could not submit your response"
-msgstr "تعذّر تسليم إجابتك"
+msgstr "عذرًا، لم نتمكّن من تقديم ردّك."
 
-#: templates/legacy/response/oa_response.html:334
+#: templates/legacy/response/oa_response.html:333
 msgid "Submit your response and move to the next step"
-msgstr "من فضلك سلِّم إجابتك ثمّ انتقِل إلى الخطوة التالية"
+msgstr "يُرجى تقديم ردّك ثمّ الانتقال إلى الخطوة التالية."
 
 #: templates/legacy/response/oa_response_cancelled.html:34
 msgid "Your submission was cancelled. "
-msgstr "أُلغِي تقديم إجابتك."
+msgstr "تم إلغاء تقديمك."
 
 #: templates/legacy/response/oa_response_cancelled.html:37
 #, python-format
@@ -1823,8 +1823,8 @@ msgid ""
 "                            "
 msgstr ""
 "\n"
-"                               أُلغِي تقديم إجابتك في %(removed_datetime)s\n"
-"                            "
+"\n"
+"تم إلغاء تقديمك في %(removed_datetime)s"
 
 #: templates/legacy/response/oa_response_cancelled.html:48
 #, python-format
@@ -1849,9 +1849,9 @@ msgid ""
 " a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
 msgstr ""
-"انقضت مهلة هذه الخطوة وأُغلِقت. لم يَعُد بإمكانك إرسال إجابة أو استكمال هذه "
-"المسألة، وستحصل على درجة \"غير مكتمل\". إذا حفظت إجابتك دون إرسالها، فستظهر "
-"في سِجلّات المساق."
+"لقد مر تاريخ استحقاق هذه الخطوة. تم إغلاق هذه الخطوة. عذرًا، لم يعد بإمكانك "
+"تقديم ردّ أو مواصلة العمل على هذه المسألة، وستحصل على درجة غير مكتملة. في "
+"حال قمت بحفظ ردّك من دون تقديمه، فسوف يظهر في سجلّات الدورة التعليمية."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -1876,7 +1876,7 @@ msgid ""
 "Your response has been submitted. You will receive your grade after all "
 "steps are complete and your response is fully assessed."
 msgstr ""
-"لقد سُلمت إجابتك. ستحصل على درجتك بعد إنهاء جميعِ الخطوات وتقييم إجابتك "
+"تم تقديم ردودك. ستحصل على درجتك بعد أن يتم استكمال جميع الخطوات وتقييم ردّك "
 "بالكامل."
 
 #: templates/legacy/response/oa_response_submitted.html:34
@@ -1914,7 +1914,7 @@ msgstr ""
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
-msgstr "تعذّر إعادة تعيين إجابتك"
+msgstr "لم نتمكن من إعادة ضبط ردك"
 
 #: templates/legacy/response/oa_response_submitted.html:69
 msgid "Reset response and submit again"
@@ -1935,10 +1935,10 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"                             انضممت إلى فريق %(team_name)sبعد تقديمهم إجابة على هذه المهمة\n"
-"                            ولن تحصل على درجة تقييمهم ذاتها. كما لم تُقدِّم إجابة على هذه المهمة ضِمن فريق آخر.\n"
-"                            يرجى التواصل مع طاقم المساق لمناقشة خِياراتك لهذه المهمة.\n"
-"                        "
+"لقد انضممت إلى فريق %(team_name)sبعد تقديمهم إجابة على هذه المهمة\n"
+"ولن تحصل على درجة تقييمهم ذاتها. ولم تقدم أيضًا\n"
+" إجابة على هذه المهمة مع فريق آخر. يرجى الاتصال بطاقم المساق لمناقشة خياراتك\n"
+"لهذه المهمة"
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
@@ -1980,8 +1980,8 @@ msgid ""
 "longer complete a self assessment or continue with this assignment, and you "
 "will receive a grade of Incomplete."
 msgstr ""
-"انقضت مهلة هذه الخطوة وأُغلِقت. لم يَعُد بإمكانك إتمام تقييم ذاتي أو متابعة "
-"العمل على هذه المهمة، وستحصل على درجة \"غير مكتمل\"."
+"لقد مر تاريخ استحقاق هذه الخطوة. تم إغلاق هذه الخطوة. لم يعد بإمكانك استكمال"
+" تقييمات ذاتية أو متابعة العمل على هذا الواجب، وستحصل على درجة غير مكتملة."
 
 #: templates/legacy/staff/oa_staff_grade.html:13 xblock/grade_mixin.py:369
 msgid "Staff Grade"
@@ -2003,7 +2003,7 @@ msgstr "عرض إحصائيات الواجب"
 
 #: templates/legacy/staff_area/oa_staff_area.html:22
 msgid "Demo the new Grading Experience"
-msgstr "اختَبِر تجربة التقييم الجديدة"
+msgstr "عرض تجريبي لتجربة التقييم الجديدة"
 
 #: templates/legacy/staff_area/oa_staff_area.html:26
 msgid "View ORA in Studio"
@@ -2071,11 +2071,11 @@ msgstr "تقييم طاقم المساق"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
-msgstr "امنَح هذا الفريق درجة باستخدام معايير تقييم المسألة."
+msgstr "امنح الفريق درجة باستخدام سُلّم تقييم المسألة"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:16
 msgid "Give this learner a grade using the problem's rubric."
-msgstr "امنَح هذا المتعلم درجة باستخدام معايير تقييم المسألة."
+msgstr "امنح المتعلّم درجة باستخدام سُلّم تقييم المسألة"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:26
 #, python-format
@@ -2136,11 +2136,11 @@ msgstr ""
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
-msgstr "استبدِل درجة المتعلم الحالية باستخدام معيار تقييم المسألة."
+msgstr "تجاوز علامة المتعلّم الحالية باستخدام سُلّم تقييم المسألة."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:9
 msgid "Override this team's current grade using the problem's rubric."
-msgstr "استبدِل درجة الفريق الحالية باستخدام معيار تقييم المسألة."
+msgstr "تجاوز علامة الفريق الحالية باستخدام سُلّم تقييم المسألة."
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:27
 msgid "Team Response"
@@ -2245,7 +2245,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"                            الدرجة النهائية: %(points_earned)s من %(points_possible)s\n"
+"الدرجة النهائية: %(points_earned)s من %(points_possible)s\n"
 "                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:119
@@ -2301,9 +2301,9 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"حُذف تقديم إجابة المتعلم من قِسم \"تقييم الزملاء\". يحصل الطالب على درجة صفر"
-" ما لم تُمحَ \"حالة المتعلم\" لهذه المسألة وذلك ليُسمح له بإعادة تقديم "
-"إجابة."
+"حُذِفَ تقديم إجابة المتعلّم من قسم ’تقييم الزملاء‘. يحصل الطالب على درجة صفر"
+" ما لم يُمحى ’وضع المتعلّم‘ لهذه المشكلة وذلك ليُسمح له بإعادة تقديم ردّ "
+"الإجابة من جديد."
 
 #: templates/legacy/staff_area/oa_student_info.html:172
 msgid ""
@@ -2339,7 +2339,8 @@ msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
 msgstr ""
-"ثُبِّتت الدرجات. وهي تُثبَّت تلقائياً بعد 30 يوماً من تاريخ انتهاء المساق."
+"يتم تجميد الدرجات. يتم تجميد الدرجات تلقائيًا بعد 30 يومًا من تاريخ انتهاء "
+"المساق."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2412,7 +2413,7 @@ msgstr "الآراء والملاحظات"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:29
 msgid "Points Possible"
-msgstr "درجات ممكنة"
+msgstr "النقاط المحتملة"
 
 #: templates/legacy/student_training/student_training.html:18
 msgid "Learn to Assess Responses"
@@ -2467,10 +2468,10 @@ msgid ""
 "instructor selected, you'll move to the next step. If you don't select the "
 "same options, you'll review the response and try again."
 msgstr ""
-"قبل أن تبدأ بتقييم إجابات زملائك، ستتعلم كيف تتم تقييمات الزملاء من خلال "
-"مراجعة الإجابات التي سبق أن قيّمها المعلمون. وإذا اخترت خِيارات الإجابة "
-"نفسها التي اختارها المعلم، فستنتقل إلى الخطوة التالية. أمّا إذا لم تختَر "
-"الخِيارات نفسها، فستُراجِع الإجابة وتعيد المحاولة."
+"قبل أن تبدأ بتقييم ردود زملائك، ستتعلّم كيفية استكمال تقييمات الزملاء من "
+"خلال مراجعة الردود التي سبق أن قيّمها الأساتذة. وإذا انتقيت خيارات الردّ "
+"نفسها التي انتقاها الأستاذ، ستنتقل إلى الخطوة التالية. أمّا في حال لم تنتقِ "
+"الخيارات نفسها، فإنّك ستراجع الرد وستعيد المحاولة."
 
 #: templates/legacy/student_training/student_training.html:69
 msgid ""
@@ -2504,7 +2505,7 @@ msgstr "الخيار الذي انتقيته ليس هو نفسه الخيار �
 
 #: templates/legacy/student_training/student_training.html:144
 msgid "We could not check your assessment"
-msgstr "تعذّر علينا التحقق من تقييمك"
+msgstr "عذرًا، لم نتمكّن من التحقّق من تقييمك."
 
 #: templates/legacy/student_training/student_training.html:151
 msgid "Compare your selections with the instructor's selections"
@@ -2516,8 +2517,8 @@ msgid ""
 "longer continue with this assignment, and you will receive a grade of "
 "Incomplete."
 msgstr ""
-"انقضت مهلة هذه الخطوة وأُغلِقت. لم يَعُد بإمكانك إتمام هذه المهمة، وستحصل "
-"على درجة \"غير مكتمل\"."
+"لقد مر تاريخ استحقاق هذه الخطوة. تم اغلاق هذه الخطوة. لم يعد بإمكانك استكمال"
+" هذا الواجب، وستحصل على درجة غير مكتملة."
 
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
@@ -2529,7 +2530,7 @@ msgstr "تعذّر تحميل خطوة تدريب المتعلّم لهذا ال
 
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
-msgstr "يجري تحميل تقييم الإجابات المفتوحة..."
+msgstr "جارٍ تحميل تقييم الاستجابة المفتوحة..."
 
 #: xblock/grade_mixin.py:78 xblock/leaderboard_mixin.py:61
 msgid "An unexpected error occurred."
@@ -2545,11 +2546,11 @@ msgstr "التقييم الذاتي"
 
 #: xblock/grade_mixin.py:222
 msgid "Assessment feedback could not be saved."
-msgstr "تعذّر حفظ الآراء والملاحظات على التقييم."
+msgstr "عذراً، لم يتم حفظ الآراء والملاحظات الخاصّة بالتقييم."
 
 #: xblock/grade_mixin.py:233
 msgid "Feedback saved."
-msgstr "حٌفظ الآراء والملاحظات بنجاح."
+msgstr "جرى حفظ الآراء والملاحظات."
 
 #: xblock/grade_mixin.py:370 xblock/grade_mixin.py:535
 msgid "Staff Comments"
@@ -2602,7 +2603,7 @@ msgid ""
 "You have successfully completed this problem and received a "
 "{earned_points}/{total_points}."
 msgstr ""
-"لقد أتممت حل هذه المسألة بنجاح وحصلت على {earned_points}/{total_points}."
+"لقد أتممت حل هذه المسألة بنجاح وحصلت على  {earned_points}/{total_points}."
 
 #: xblock/grade_mixin.py:695
 msgid ""
@@ -2661,7 +2662,7 @@ msgstr "تمت إعادة ضبط الإرسال بنجاح."
 
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
-msgstr "يجب تحديد معرّف كتلة لنسخ معيار التقييم منها."
+msgstr "يَجِب أنْ تُحَدِّد مُعَرَّف كُتلَة لِنَسخ مَعايير التقييم مِنها."
 
 #: xblock/rubric_reuse_mixin.py:66
 msgid "Invalid block id."
@@ -2672,7 +2673,8 @@ msgstr "معرف كتلة غير صالح."
 msgid ""
 "No Open Response Assessment found in {course_id} with block id {block_id}"
 msgstr ""
-"لم يُعثر على تقييم الإجابات المفتوحة في {course_id} بمعرّف كتلة {block_id}"
+"لم يُعثَر على تقييم الإجابات المفتوحة في {course_id} بمُعَرَّف كُتلة "
+"{block_id}"
 
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
@@ -2702,7 +2704,7 @@ msgstr "قيد الانتظار"
 
 #: xblock/staff_area_mixin.py:242
 msgid "Complete/Overwritten"
-msgstr "مكتملة / مستبدلة"
+msgstr "مُكتَملة/مُستَبدلة"
 
 #: xblock/staff_area_mixin.py:245
 msgid "Not applicable"
@@ -2756,9 +2758,9 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"حُذف تقديم إجابة المتعلم من قِسم \"تقييم الزملاء\". يحصل الطالب على درجة صفر"
-" ما لم تُمحَ \"حالة المتعلم\" لهذه المسألة وذلك ليُسمح له بإعادة تقديم "
-"إجابة."
+"حُذِفَ تقديم إجابة المتعلّم من قسم ’تقييم الزملاء‘. يحصل الطالب على درجة صفر"
+" ما لم يُمحى ’وضع المتعلّم‘ لهذه المشكلة وذلك ليُسمح له بإعادة تقديم ردّ "
+"الإجابة من جديد."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""
@@ -2830,8 +2832,8 @@ msgid ""
 "This step's start date '{start}' cannot be earlier than the previous step's "
 "start date '{prev}'."
 msgstr ""
-"لا يمكن أن يكون تاريخ بدء هذه الخطوة '{start}' قبل تاريخ بدء الخطوة السابقة "
-"'{prev}'."
+"لا يمكن لتاريخ البدء بهذه الخطوة '{start}' أن يسبق تاريخ البدء بالخطوة "
+"السابقة '{prev}'."
 
 #: xblock/utils/resolve_dates.py:218
 #, python-brace-format
@@ -2906,11 +2908,11 @@ msgstr ""
 
 #: xblock/utils/validation.py:200
 msgid "This rubric definition is not valid."
-msgstr "تعريف معيار التقييم هذا غير صالح."
+msgstr "تعريف سلّم التقييم هذا غير صالح."
 
 #: xblock/utils/validation.py:203
 msgid "You must provide at least one prompt."
-msgstr "يجب أن تطرح مسألة واحدة على الأقل."
+msgstr "يَجِب أنْ تَطرح مَسألة واحدة على الأقل."
 
 #: xblock/utils/validation.py:209
 #, python-brace-format
